@@ -1,0 +1,202 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'de' Physical Memory: 16159 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1/Milgram VR
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64751
+Successfully changed project path to: C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1/Milgram VR
+C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1/Milgram VR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 165.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1/Milgram VR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX350 (ID=0x1c94)
+    Vendor:   NVIDIA
+    VRAM:     1979 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012506 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Milgram VR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Milgram VR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2018ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1623ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (722ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3808.
+Memory consumption went from 116.5 MB to 116.4 MB.
+Total: 4.017200 ms (FindLiveObjects: 0.285100 ms CreateObjectMapping: 0.163000 ms MarkObjects: 3.446200 ms  DeleteObjects: 0.122000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4205.054330 seconds.
+  path: Assets/desk-1400-clear_wood.stp
+  artifactKey: Guid(23c2c395ac85adf47afb08bfa31fb530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk-1400-clear_wood.stp using Guid(23c2c395ac85adf47afb08bfa31fb530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807a9f82a7776c452af11e42f7ba17af') in 0.056386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1583.617652 seconds.
+  path: Assets/Maps/168_NATURAL_OAK_BUMP.jpg
+  artifactKey: Guid(84570df4f4d31ed43adff9d89a258d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/168_NATURAL_OAK_BUMP.jpg using Guid(84570df4f4d31ed43adff9d89a258d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b44ef061deb79e0210eba6382f0e88') in 0.107783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.090228 seconds.
+  path: Assets/Render/Render_MDD_Desk_CompactDrive_Front.jpg
+  artifactKey: Guid(64f5c7a34f86d754990b4ad4fe362869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Render/Render_MDD_Desk_CompactDrive_Front.jpg using Guid(64f5c7a34f86d754990b4ad4fe362869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a6bf6115b7c38fde92211b2ea5d2d8') in 0.023965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 378.963809 seconds.
+  path: Assets/Materials/Desk_Compact_Drive/168_NATURAL_OAK_BUMP.jpg
+  artifactKey: Guid(0c8ff033a78fd98498c066e1d20c99ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Desk_Compact_Drive/168_NATURAL_OAK_BUMP.jpg using Guid(0c8ff033a78fd98498c066e1d20c99ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d0065000f94c5fe0cfad723a9c86cb') in 0.033896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/Desk_Compact_Drive/Render_MDD_Desk_CompactDrive_Front.jpg
+  artifactKey: Guid(1480a528fed845147ac143ec128a26d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Desk_Compact_Drive/Render_MDD_Desk_CompactDrive_Front.jpg using Guid(1480a528fed845147ac143ec128a26d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc56b5918c0913bc9c95416ca37e71b') in 0.027037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/Desk_Compact_Drive/BLACK_SEMI_MATT_RAL_115.jpg
+  artifactKey: Guid(aa3a76ef1b4bdb5449412e57ae2d5132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Desk_Compact_Drive/BLACK_SEMI_MATT_RAL_115.jpg using Guid(aa3a76ef1b4bdb5449412e57ae2d5132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4967f9d445204e5a1bf7c529185dc5') in 0.020373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Materials/Desk_Compact_Drive/168_NATURAL_OAK_NORMAL.jpg
+  artifactKey: Guid(23f1ead555fed1946b8efee031e0529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Desk_Compact_Drive/168_NATURAL_OAK_NORMAL.jpg using Guid(23f1ead555fed1946b8efee031e0529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbb2effa4bcb009236eef72f6bf6932') in 0.024081 seconds 
