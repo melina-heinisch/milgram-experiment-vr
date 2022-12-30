@@ -3,38 +3,27 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0188188c253e0c4bb9b46e19fa7312e, type: 3}
   m_Name: o3n_female_pants_03_Recipe
   m_EditorClassIdentifier: 
-  label: 
-  resourcesOnly: 0
   recipeType: Wardrobe
   DisplayValue: Pants 03
   compatibleRaces:
-  - HumanFemale
-  - HumanFemaleDCS
+  - o3n Female
   wardrobeRecipeThumbs:
-  - race: HumanFemale
+  - race: o3n Female
     filename: 
-    thumb: {fileID: 0}
-  - race: HumanFemaleDCS
-    filename: 
-    thumb: {fileID: 0}
+    thumb: {fileID: 21300000, guid: 970c37234f7f1cf458d0b84ea19f9c60, type: 3}
   wardrobeSlot: Legs
-  Hides: []
-  HideTags: []
+  Hides:
+  - o3n_female_legs_LOD1
   suppressWardrobeSlots: []
   activeWardrobeSet: []
   MeshHideAssets: []
-  OverrideDNA:
-    PreloadValues: []
-  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"FemaleLegs","scale":100,"copyIdx":-1,"overlays":[],"Tags":["Legs"],"Races":[]}],"colors":[],"fColors":[{"name":"ClothingBottom01","colors":[133,107,91,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false}],"sharedColorCount":1,"race":"","packedDna":[]}'
-  IncompatibleRecipes: []
-  UserField: 
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"o3n_female_torso_LOD1","scale":100,"copyIdx":-1,"overlays":[{"id":"o3n_female_pants_03_alpha_mask_Overlay","colorIdx":1,"rect":[0,0,0,0],"data":[]}]},{"id":"o3n_female_pants_03_LOD1","scale":100,"copyIdx":-1,"overlays":[{"id":"o3n_female_pants_03_Overlay","colorIdx":0,"rect":[0,0,0,0],"data":[]}]}],"colors":[],"fColors":[{"name":"ClothingBottom01","colors":[133,107,91,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":1,"race":"","packedDna":[]}'
   replaces: Nothing
