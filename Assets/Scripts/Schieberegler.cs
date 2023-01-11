@@ -7,7 +7,7 @@ public class Schieberegler : MonoBehaviour
     public float minZ;
     public float maxZ;
 
-    private float lastSliderZ = -9999;
+    private float lastSliderZ;// = -9999;
 
 
     // Start is called before the first frame update
@@ -35,10 +35,10 @@ public class Schieberegler : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log($"Trigger with {other}");
+        //Debug.Log($"Trigger with {other}");
         if (!other.name.Contains("Hand"))
         {
-            Debug.Log($"{other}, {other.transform.position}");
+            //Debug.Log($"{other}, {other.transform.position}");
             lastSliderZ = other.gameObject.transform.position.z;
 
         }
@@ -50,25 +50,16 @@ public class Schieberegler : MonoBehaviour
         ReleaseSlider();
     }
 
-    public void ReleaseSlider()
+    private void ReleaseSlider()
     {
         if (lastSliderZ != -9999)
         {
             Vector3 vector3 = transform.position;
             vector3.z = lastSliderZ;
             transform.position = vector3;
-            Debug.Log($"Slider released. new position {vector3}");
+            //Debug.Log($"Slider released. new position {vector3}");
 
         }
     }
-
-    public void MoveSchieberegler()
-    {
-
-    }
-
-    public void GetOffset(Transform transform)
-    {
-        //offsetZ = transform.position.z - transform.position.z;
-    }
+    
 }
