@@ -5,6 +5,13 @@ using UnityEngine;
 public class ExecutePunishment : MonoBehaviour, IInstruction
 {
     ContentAssociationspaar _association;
+    private PressButtonAnimation punishButton;
+
+    private void Start()
+    {
+         punishButton = GameObject.Find("Button Punish").GetComponentInChildren<PressButtonAnimation>();
+    }
+
     public bool isDone()
     {
         //skip this step if answer is correct
@@ -13,9 +20,9 @@ public class ExecutePunishment : MonoBehaviour, IInstruction
             return true;
         }
         // is punishment done?
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || punishButton.buttonIsPressed)
         {
-            Debug.LogWarning("not implemented");
+            Debug.LogWarning("Sound not implemented");
             return true;
         }
         else

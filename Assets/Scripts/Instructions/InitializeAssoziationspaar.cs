@@ -4,11 +4,26 @@ using UnityEngine;
 
 public class InitializeAssoziationspaar : MonoBehaviour, IInstruction
 {
+    private PressButtonAnimation microphoneButton;
+    private bool buttonHasBeenActivated;
+
+    private void Start()
+    {
+        microphoneButton = GameObject.Find("Button Microphone").GetComponentInChildren<PressButtonAnimation>();
+    }
+
     public bool isDone()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (microphoneButton.buttonIsPressed)
         {
-            Debug.LogWarning("not implemented");
+            buttonHasBeenActivated = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) ||
+            (buttonHasBeenActivated && !microphoneButton.buttonIsPressed)) //wait until button is released
+        {
+            //reset bool
+            buttonHasBeenActivated = false;
             return true;
         }
         else
@@ -21,7 +36,7 @@ public class InitializeAssoziationspaar : MonoBehaviour, IInstruction
     {
         Debug.Log("Start of instruction Init.");
         //set instruction
-        canvasReferences.anweisung.text = "Lesen Sie die Wortpaare vor. Klicken Sie danach auf XXX.";
+        canvasReferences.anweisung.text = "Halten Sie den Knopf vor dem Mikrofon gedrückt und lesen Sie die Wortpaare vor.";
 
         //set other texts
         canvasReferences.assoziationspaar1.text = assoziation.assoziationspaar1;
