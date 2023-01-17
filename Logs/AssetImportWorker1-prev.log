@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'de' Physical Memory: 16159 MB
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'de' Physical Memory: 8183 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+C:\Program Files\Unity3D\2021.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1
+C:/Users/Sophia/Desktop/Programming/light-and-dark-sides-gruppe-1/MilgramVR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51045
-Successfully changed project path to: C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1
-C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1
+54221
+Successfully changed project path to: C:/Users/Sophia/Desktop/Programming/light-and-dark-sides-gruppe-1/MilgramVR
+C:/Users/Sophia/Desktop/Programming/light-and-dark-sides-gruppe-1/MilgramVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,68 +47,68 @@ C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 220.71 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.76 ms.
+Refreshing native plugins compatible for Editor in 1632.70 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 1.74 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity3D/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sophia/Desktop/Programming/light-and-dark-sides-gruppe-1/MilgramVR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX350 (ID=0x1c94)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   NVIDIA
-    VRAM:     1979 MB
-    Driver:   30.0.15.1259
+    VRAM:     4018 MB
+    Driver:   31.0.15.1694
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Mono path[0] = 'C:/Program Files/Unity3D/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity3D/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity3D/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009130 seconds.
+Register platform support module: C:/Program Files/Unity3D/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017019 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 179.63 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 299.31 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.832 seconds
+- Completed reload, in  1.500 seconds
 Domain Reload Profiling:
-	ReloadAssembly (832ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (268ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (619ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (1002ms)
+			LoadAssemblies (256ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
+			SetupTypeCache (185ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (382ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (649ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (180ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (300ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013509 seconds.
+Registered in 0.084100 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 235.00 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 310.51 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -116,44 +116,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.78.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.179 seconds
+- Completed reload, in  3.510 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2180ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (3511ms)
+		BeginReloadAssembly (244ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1923ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (3000ms)
+			LoadAssemblies (481ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (464ms)
+			SetupTypeCache (604ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (136ms)
-			SetupLoadedEditorAssemblies (1145ms)
+			RebuildScriptCaches (189ms)
+			SetupLoadedEditorAssemblies (1624ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (235ms)
-				BeforeProcessingInitializeOnLoad (178ms)
-				ProcessInitializeOnLoadAttributes (661ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				RefreshPlugins (311ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (978ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (31ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 6.54 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
 Unloading 5906 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (187.3 KB). Loaded Objects now: 6347.
-Memory consumption went from 222.6 MB to 222.4 MB.
-Total: 7.187700 ms (FindLiveObjects: 0.486500 ms CreateObjectMapping: 0.704700 ms MarkObjects: 5.574000 ms  DeleteObjects: 0.420900 ms)
+Unloading 61 unused Assets / (178.6 KB). Loaded Objects now: 6345.
+Memory consumption went from 224.3 MB to 224.1 MB.
+Total: 6.726600 ms (FindLiveObjects: 1.009500 ms CreateObjectMapping: 0.403800 ms MarkObjects: 5.042600 ms  DeleteObjects: 0.269200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,174 +168,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28355.835322 seconds.
-  path: Assets/uploads_files_2968164_mikrofon111.fbx
-  artifactKey: Guid(6c5edb82f44458c4486b2fdc3ddd318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/uploads_files_2968164_mikrofon111.fbx using Guid(6c5edb82f44458c4486b2fdc3ddd318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d765f505a8d2318f0ab4e43204c73c') in 0.456987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 630.352790 seconds.
-  path: Assets/Materials/Black Slider.mat
-  artifactKey: Guid(22d95e4771740bb4e87c6bd7f9ab5563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Black Slider.mat using Guid(22d95e4771740bb4e87c6bd7f9ab5563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00045699eadbaf5c10a231b7329d600') in 0.087737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Materials/podsvetka.mat
-  artifactKey: Guid(5944af56a9780e34984ecef9c312bf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/podsvetka.mat using Guid(5944af56a9780e34984ecef9c312bf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3959d48e1c7be7414a225e42824fe8a3') in 0.055732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Materials/dark red.mat
-  artifactKey: Guid(57ac594a3d7e2c948b0d179f364c9a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/dark red.mat using Guid(57ac594a3d7e2c948b0d179f364c9a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9431a812b1ae38ab6075cba91be41f74') in 0.037459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Materials/red.mat
-  artifactKey: Guid(3901409b48c511346b72cf4956125b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/red.mat using Guid(3901409b48c511346b72cf4956125b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6902168263049597ab4695a18bf40082') in 0.043011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Materials/vet_roga.mat
-  artifactKey: Guid(023bafa9c03f9ec4faa2c8c6dc90d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/vet_roga.mat using Guid(023bafa9c03f9ec4faa2c8c6dc90d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aeea16610b988f981dd7bbd65cbdd81') in 0.065376 seconds 
+  Time since last request: 243030.602031 seconds.
+  path: Assets/Tongenerator.fbx
+  artifactKey: Guid(745d64a60ec38f1438cf415ed07ad6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tongenerator.fbx using Guid(745d64a60ec38f1438cf415ed07ad6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319867ba931c0621d95ecc7099db01fb') in 1.725227 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012824 seconds.
+Registered in 0.034414 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 3.61 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.576 seconds
+- Completed reload, in  2.648 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1576ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (2650ms)
+		BeginReloadAssembly (335ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1226ms)
-			LoadAssemblies (159ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2085ms)
+			LoadAssemblies (333ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (420ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (540ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (366ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 10.11 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (155.6 KB). Loaded Objects now: 6396.
-Memory consumption went from 216.1 MB to 215.9 MB.
-Total: 5.850300 ms (FindLiveObjects: 1.173700 ms CreateObjectMapping: 0.632700 ms MarkObjects: 3.855900 ms  DeleteObjects: 0.186700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 348.384497 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/MinerTrousersM_Recipe.asset
-  artifactKey: Guid(7a8a929cef35d44489188b668045a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/MinerTrousersM_Recipe.asset using Guid(7a8a929cef35d44489188b668045a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8865c977518b1cad820f3c137782cb31') in 0.043887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 156.413209 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Base/trousersLacedF_normal.png
-  artifactKey: Guid(89de4254823ba8d42b5b643b9268a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Base/trousersLacedF_normal.png using Guid(89de4254823ba8d42b5b643b9268a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a26fa85ead6a066a7b1ab58c7efef55') in 0.092037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Rope/trousersLacedRopeF_metall.png
-  artifactKey: Guid(360e51c43b6d92d40b9061c092a63b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Rope/trousersLacedRopeF_metall.png using Guid(360e51c43b6d92d40b9061c092a63b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129588eb42096539a824e294978167f8') in 0.021296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_metall.png
-  artifactKey: Guid(9739a810dae6b6844bb0dcea2d1b235a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_metall.png using Guid(9739a810dae6b6844bb0dcea2d1b235a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bc4a6a9b9e6a771689383df7fed2e1') in 0.020493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_diffuse.png
-  artifactKey: Guid(f9e20f6397196cc4c8f4294d130c0255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_diffuse.png using Guid(f9e20f6397196cc4c8f4294d130c0255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1707e717143c0516456fa7c0682e40') in 0.031683 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010221 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.03 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.571 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1572ms)
-		BeginReloadAssembly (161ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1287ms)
-			LoadAssemblies (125ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (635ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (592ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (893ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (391ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (578ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (33ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 12.89 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 25.35 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
 Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (155.4 KB). Loaded Objects now: 6404.
-Memory consumption went from 216.1 MB to 216.0 MB.
-Total: 6.912900 ms (FindLiveObjects: 0.715900 ms CreateObjectMapping: 0.645100 ms MarkObjects: 5.295500 ms  DeleteObjects: 0.255200 ms)
+Unloading 51 unused Assets / (146.5 KB). Loaded Objects now: 6360.
+Memory consumption went from 217.5 MB to 217.4 MB.
+Total: 6.730500 ms (FindLiveObjects: 1.131700 ms CreateObjectMapping: 0.467000 ms MarkObjects: 4.884900 ms  DeleteObjects: 0.244500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -351,49 +233,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010417 seconds.
+Registered in 0.035337 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 3.25 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.438 seconds
+- Completed reload, in  2.552 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1439ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (2553ms)
+		BeginReloadAssembly (336ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1140ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1975ms)
+			LoadAssemblies (292ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (485ms)
+			SetupTypeCache (623ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (861ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (33ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.70 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 24.41 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (155.5 KB). Loaded Objects now: 6408.
-Memory consumption went from 216.2 MB to 216.0 MB.
-Total: 4.094100 ms (FindLiveObjects: 0.400500 ms CreateObjectMapping: 0.233500 ms MarkObjects: 3.285500 ms  DeleteObjects: 0.173000 ms)
+Unloading 51 unused Assets / (146.5 KB). Loaded Objects now: 6364.
+Memory consumption went from 217.6 MB to 217.4 MB.
+Total: 7.048200 ms (FindLiveObjects: 1.247100 ms CreateObjectMapping: 0.523900 ms MarkObjects: 5.015200 ms  DeleteObjects: 0.259900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -407,194 +289,640 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 211.384681 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltBlueM_Recipe.asset
-  artifactKey: Guid(be9262deffb203946ba319bac6c52566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltBlueM_Recipe.asset using Guid(be9262deffb203946ba319bac6c52566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6c85b2089769d327d250e5c8ab12b6') in 0.042126 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032963 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.76 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2523ms)
+		BeginReloadAssembly (340ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (1941ms)
+			LoadAssemblies (282ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (595ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (862ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (536ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 23.09 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (146.4 KB). Loaded Objects now: 6368.
+Memory consumption went from 217.6 MB to 217.4 MB.
+Total: 7.990600 ms (FindLiveObjects: 1.025500 ms CreateObjectMapping: 0.445100 ms MarkObjects: 6.259800 ms  DeleteObjects: 0.258200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersRoughF_Recipe.asset
-  artifactKey: Guid(3fd002b87901f9a4faeea53838307cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersRoughF_Recipe.asset using Guid(3fd002b87901f9a4faeea53838307cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d481326403ae7a202d7f173fe26877') in 0.012436 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.035577 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.78 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.643 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2645ms)
+		BeginReloadAssembly (339ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (2066ms)
+			LoadAssemblies (300ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (640ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (915ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (590ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 21.78 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (146.6 KB). Loaded Objects now: 6372.
+Memory consumption went from 217.6 MB to 217.4 MB.
+Total: 6.978400 ms (FindLiveObjects: 0.924700 ms CreateObjectMapping: 0.359800 ms MarkObjects: 5.458700 ms  DeleteObjects: 0.233200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltRedM_Recipe.asset
-  artifactKey: Guid(dbbf822cf6c77354eb9e325cd3f013b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltRedM_Recipe.asset using Guid(dbbf822cf6c77354eb9e325cd3f013b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef56d3bdc74a881f0e5863d1417499b2') in 0.008310 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.037887 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.38 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2834ms)
+		BeginReloadAssembly (558ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (193ms)
+		EndReloadAssembly (2011ms)
+			LoadAssemblies (323ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (670ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (854ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (522ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 47.08 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (146.4 KB). Loaded Objects now: 6376.
+Memory consumption went from 217.6 MB to 217.5 MB.
+Total: 16.366300 ms (FindLiveObjects: 1.053800 ms CreateObjectMapping: 0.412700 ms MarkObjects: 13.854400 ms  DeleteObjects: 1.043400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltPatchedM_Recipe.asset
-  artifactKey: Guid(2f249deef96943b4baca1ca641f09dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltPatchedM_Recipe.asset using Guid(2f249deef96943b4baca1ca641f09dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef573cdadf5da0f8dca8dc2dcf70b30d') in 0.007500 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.036770 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.25 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2900ms)
+		BeginReloadAssembly (351ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (2293ms)
+			LoadAssemblies (331ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (629ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (1116ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (262ms)
+				ProcessInitializeOnLoadAttributes (706ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 38.61 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (154.3 KB). Loaded Objects now: 6380.
+Memory consumption went from 217.7 MB to 217.5 MB.
+Total: 10.757600 ms (FindLiveObjects: 1.506300 ms CreateObjectMapping: 0.677500 ms MarkObjects: 7.783800 ms  DeleteObjects: 0.787300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersTiedGreenM_Recipe.asset
-  artifactKey: Guid(59bf8d5352597134481eee7684e83087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersTiedGreenM_Recipe.asset using Guid(59bf8d5352597134481eee7684e83087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7014e8e204e9810bac12f20f9b39dc52') in 0.006863 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.035377 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.07 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2698ms)
+		BeginReloadAssembly (321ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2089ms)
+			LoadAssemblies (383ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (672ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (797ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (483ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 23.65 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (146.6 KB). Loaded Objects now: 6384.
+Memory consumption went from 217.7 MB to 217.5 MB.
+Total: 7.625400 ms (FindLiveObjects: 1.021500 ms CreateObjectMapping: 0.391800 ms MarkObjects: 5.043100 ms  DeleteObjects: 1.166900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersTiedGreenF_Recipe.asset
-  artifactKey: Guid(6a18a92740015314089f0704b5ab4d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersTiedGreenF_Recipe.asset using Guid(6a18a92740015314089f0704b5ab4d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d401c805254b5778620757d288ffe96') in 0.006982 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034889 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.10 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.257 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2258ms)
+		BeginReloadAssembly (299ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1740ms)
+			LoadAssemblies (268ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (533ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (752ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (468ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 22.57 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (154.3 KB). Loaded Objects now: 6388.
+Memory consumption went from 217.7 MB to 217.6 MB.
+Total: 7.468700 ms (FindLiveObjects: 0.972100 ms CreateObjectMapping: 0.377700 ms MarkObjects: 5.085100 ms  DeleteObjects: 1.031400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersLeatherF_Recipe.asset
-  artifactKey: Guid(f90781b04741aa34f906090559a2963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersLeatherF_Recipe.asset using Guid(f90781b04741aa34f906090559a2963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8497bc2c7069a57f403835deead65fe4') in 0.006273 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033337 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.94 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.644 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2645ms)
+		BeginReloadAssembly (347ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2056ms)
+			LoadAssemblies (314ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (632ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (902ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (581ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 24.42 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (146.6 KB). Loaded Objects now: 6392.
+Memory consumption went from 217.7 MB to 217.6 MB.
+Total: 7.904000 ms (FindLiveObjects: 1.025800 ms CreateObjectMapping: 0.415600 ms MarkObjects: 6.189400 ms  DeleteObjects: 0.270600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 18.434105 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Base/trousersLacedM_normal.png
-  artifactKey: Guid(1b9301e1dae8ede478d4ce92a04959ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Base/trousersLacedM_normal.png using Guid(1b9301e1dae8ede478d4ce92a04959ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576e8a96d34775383d340a7915f5050a') in 0.049069 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.87 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2331ms)
+		BeginReloadAssembly (300ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1813ms)
+			LoadAssemblies (306ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (564ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (765ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (482ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 24.45 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (146.6 KB). Loaded Objects now: 6396.
+Memory consumption went from 217.7 MB to 217.6 MB.
+Total: 8.807300 ms (FindLiveObjects: 1.380900 ms CreateObjectMapping: 0.504000 ms MarkObjects: 6.086600 ms  DeleteObjects: 0.833600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsM_metall.png
-  artifactKey: Guid(9e44ecb6c12776c42838df0c1ec229ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsM_metall.png using Guid(9e44ecb6c12776c42838df0c1ec229ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65fd51942fdf07edcdee24d55d979da') in 0.018245 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034249 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.13 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.726 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2728ms)
+		BeginReloadAssembly (328ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2163ms)
+			LoadAssemblies (331ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (583ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (1013ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (627ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 24.90 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (146.6 KB). Loaded Objects now: 6400.
+Memory consumption went from 217.7 MB to 217.6 MB.
+Total: 7.316100 ms (FindLiveObjects: 1.091400 ms CreateObjectMapping: 0.420100 ms MarkObjects: 5.515400 ms  DeleteObjects: 0.286100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Rope/trousersLacedRopeM_metall.png
-  artifactKey: Guid(ab9731e8fedc75f4891da07f9a9b90e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Rope/trousersLacedRopeM_metall.png using Guid(ab9731e8fedc75f4891da07f9a9b90e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ff10cadc28c1d943322f67c8ea6876') in 0.020664 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038832 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.61 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2509ms)
+		BeginReloadAssembly (329ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1939ms)
+			LoadAssemblies (307ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (626ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (821ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (518ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 35.71 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (146.5 KB). Loaded Objects now: 6404.
+Memory consumption went from 217.7 MB to 217.6 MB.
+Total: 14.683600 ms (FindLiveObjects: 2.335200 ms CreateObjectMapping: 1.422100 ms MarkObjects: 9.914600 ms  DeleteObjects: 1.007800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Base/trousersGaitorsM_diffuse.png
-  artifactKey: Guid(9c8158f84915a444dac0332baf26c5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Base/trousersGaitorsM_diffuse.png using Guid(9c8158f84915a444dac0332baf26c5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2485f23236c0d3b14ef5daf392ea8c6') in 0.023904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsM_normal.png
-  artifactKey: Guid(bbea174b21cf6d44b894eec14b39ed02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsM_normal.png using Guid(bbea174b21cf6d44b894eec14b39ed02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7354df61e62230b23ecd5c0bf487bddc') in 0.022249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Lacing/trousersGaitorsLacingM_metall.png
-  artifactKey: Guid(b20d696396507fb4cb0ad39b2906e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Lacing/trousersGaitorsLacingM_metall.png using Guid(b20d696396507fb4cb0ad39b2906e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3564bc1ccf20fc2c2c04a3ab815175f') in 0.019747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsM_diffuse.png
-  artifactKey: Guid(43ffd161735d7314e97860dff43e1c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsM_diffuse.png using Guid(43ffd161735d7314e97860dff43e1c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810cc996cbe628cf32ff6df932f25046') in 0.022995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.586688 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Base/trousersGaitorsF_normal.png
-  artifactKey: Guid(92e01ac2f2ece8f40a4707ea1ec3327d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Base/trousersGaitorsF_normal.png using Guid(92e01ac2f2ece8f40a4707ea1ec3327d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c20d6802665d5bc94f24996f9a27ff') in 0.029323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Lacing/trousersGaitorsLacingF_diffuse.png
-  artifactKey: Guid(9c41f74b14c7f914c9c3ab2e9ffbda2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Lacing/trousersGaitorsLacingF_diffuse.png using Guid(9c41f74b14c7f914c9c3ab2e9ffbda2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6704fb2bb80b95f781b6e8eaed876a00') in 0.025192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Base/trousersGaitorsF_metall.png
-  artifactKey: Guid(1a2c2a033fcb72b47b77e56ee1845b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayGaitors/Base/trousersGaitorsF_metall.png using Guid(1a2c2a033fcb72b47b77e56ee1845b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7189c452db21289795956ba40ebf7a') in 0.018652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsF_diffuse.png
-  artifactKey: Guid(f07c113432bd0c24d98ac0bb3ee2bfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsF_diffuse.png using Guid(f07c113432bd0c24d98ac0bb3ee2bfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce40d5512d488518458ee0781677860e') in 0.021025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 549.840235 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/MinerTrousersM_Recipe.asset
-  artifactKey: Guid(7a8a929cef35d44489188b668045a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/MinerTrousersM_Recipe.asset using Guid(7a8a929cef35d44489188b668045a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d1484ac94cdaf22dfa151494e2179c') in 0.011974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersLeatherM_Recipe.asset
-  artifactKey: Guid(6b5ab98439265a54f960ff5079f59704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersLeatherM_Recipe.asset using Guid(6b5ab98439265a54f960ff5079f59704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4796e93bea64d5a52efc14f5df97e23f') in 0.008508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltBlueF_Recipe.asset
-  artifactKey: Guid(82cd7b0973c5d814ea77ec4c01b2665b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltBlueF_Recipe.asset using Guid(82cd7b0973c5d814ea77ec4c01b2665b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947bdc3c06e899fa599c282dcf21682a') in 0.010707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersRoughM_Recipe.asset
-  artifactKey: Guid(27f3d5f302294674fb929fd1d5043166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersRoughM_Recipe.asset using Guid(27f3d5f302294674fb929fd1d5043166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695731839c9b6b29f8b97ee155e5cfb7') in 0.009374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltLinenF_Recipe.asset
-  artifactKey: Guid(107a8972119b0e144a80493a659bd189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltLinenF_Recipe.asset using Guid(107a8972119b0e144a80493a659bd189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50a0c80eb81ed34c47f8736417cfd3a') in 0.008489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltBlueM_Recipe.asset
-  artifactKey: Guid(be9262deffb203946ba319bac6c52566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltBlueM_Recipe.asset using Guid(be9262deffb203946ba319bac6c52566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc40b4d75c65a5143ec91ed5817a35b') in 0.008699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersTiedGreenM_Recipe.asset
-  artifactKey: Guid(59bf8d5352597134481eee7684e83087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersTiedGreenM_Recipe.asset using Guid(59bf8d5352597134481eee7684e83087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e65c7f7b5d0c44bad2ae4fbe6c3859') in 0.008187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltPatchedF_Recipe.asset
-  artifactKey: Guid(0391433783fb448488ea0925a45bb916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/TrousersBeltPatchedF_Recipe.asset using Guid(0391433783fb448488ea0925a45bb916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038b31cc2f9d1c725d365205058326ca') in 0.011294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.563889 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Base/trousersLacedF_normal.png
-  artifactKey: Guid(89de4254823ba8d42b5b643b9268a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Base/trousersLacedF_normal.png using Guid(89de4254823ba8d42b5b643b9268a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1747a1e32f3addaabe0d97f03f02271f') in 0.024295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsF_metall.png
-  artifactKey: Guid(addd7cef45561b249a1fea038bfc79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayTrousersAdds/trousersAddsF_metall.png using Guid(addd7cef45561b249a1fea038bfc79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc683606052271fa4210c4dc09c8ee0') in 0.018773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Base/trousersLacedF_metall.png
-  artifactKey: Guid(fdbf026a2c1ca2a4ea9fdd401c4fbbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayLaced/Base/trousersLacedF_metall.png using Guid(fdbf026a2c1ca2a4ea9fdd401c4fbbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8184b1e52d6df4f47f7d9e03f9611108') in 0.017461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_metall.png
-  artifactKey: Guid(9739a810dae6b6844bb0dcea2d1b235a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_metall.png using Guid(9739a810dae6b6844bb0dcea2d1b235a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fbf4d6a7098b773db2188d29818a4c') in 0.017870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_normal.png
-  artifactKey: Guid(0213e9160420eb64a94ca1405772ece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_normal.png using Guid(0213e9160420eb64a94ca1405772ece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea65e3dc77acd14b77faceb735873f28') in 0.017749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_diffuse.png
-  artifactKey: Guid(f9e20f6397196cc4c8f4294d130c0255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Trousers/BaseSlot/_overlayPatches/KneeLeather/TrousersKneeLeatherF_diffuse.png using Guid(f9e20f6397196cc4c8f4294d130c0255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0110687dc7be1f13789f7f467ea0fa7') in 0.017038 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034795 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sophia\Desktop\Programming\light-and-dark-sides-gruppe-1\MilgramVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.92 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3095ms)
+		BeginReloadAssembly (324ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (2528ms)
+			LoadAssemblies (297ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (758ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (139ms)
+			SetupLoadedEditorAssemblies (1188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (246ms)
+				ProcessInitializeOnLoadAttributes (786ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 28.06 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 5786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (154.4 KB). Loaded Objects now: 6408.
+Memory consumption went from 217.8 MB to 217.6 MB.
+Total: 14.780500 ms (FindLiveObjects: 0.932400 ms CreateObjectMapping: 0.398200 ms MarkObjects: 5.147600 ms  DeleteObjects: 8.300500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

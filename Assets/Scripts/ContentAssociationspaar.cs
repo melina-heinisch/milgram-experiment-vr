@@ -25,4 +25,16 @@ public class ContentAssociationspaar
     public OptionEnum correctOption;
     public int timeToAnswerInSeconds;
    // public AudioClip scream;
+
+    public bool AnswerIsCorrect()
+    {
+        if (timeToAnswerInSeconds > 10)
+        {
+            return false;
+        }
+        else
+        {
+            return chosenOption == correctOption;
+        }
+    }
 }

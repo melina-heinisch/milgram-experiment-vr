@@ -43,6 +43,19 @@ public class ReferenceAssociationCanvas
         option4.gameObject.SetActive(true);
     }
 
+    public void MakeAssoziationspaareAndAnswersNonVisible()
+    {
+        assoziationspaar1.gameObject.SetActive(false);
+        assoziationspaar2.gameObject.SetActive(false);
+        assoziationspaar3.gameObject.SetActive(false);
+        assoziationspaar4.gameObject.SetActive(false);
+        hinweiswort.gameObject.SetActive(false);
+        option1.gameObject.SetActive(false);
+        option2.gameObject.SetActive(false);
+        option3.gameObject.SetActive(false);
+        option4.gameObject.SetActive(false);
+    }
+
     public void MakeAnswersWhite()
     {
         option1.color = Color.white;

@@ -5,9 +5,22 @@ using UnityEngine;
 
 public class IncreaseVolume : MonoBehaviour, IInstruction
 {
+    private Schieberegler schieberegler;
+    private int previousVolume;
+    private bool answerIsCorrect;
+
+    void Start()
+    {
+        schieberegler = GameObject.Find("Slider Grip").GetComponentInChildren<Schieberegler>();
+    }
+
     public bool isDone()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (answerIsCorrect)
+        {
+            return true;
+        }
+        else if (Input.GetKeyDown(KeyCode.Space) || schieberegler.value > previousVolume)
         {
             Debug.LogWarning("not implemented");
             return true;
@@ -20,6 +33,10 @@ public class IncreaseVolume : MonoBehaviour, IInstruction
 
     public void OnStartOfInstruction(ReferenceAssociationCanvas canvasReferences, ContentAssociationspaar assoziation)
     {
+        //set previous value
+        previousVolume = schieberegler.value;
+        answerIsCorrect = assoziation.AnswerIsCorrect();
+
         if (assoziation.timeToAnswerInSeconds > 10) // Zeit abgelaufen
         {
             canvasReferences.anweisung.text = "Die Zeit ist abgelaufen.\nBitte erhöhen Sie die Lautstärke.";
@@ -34,11 +51,11 @@ public class IncreaseVolume : MonoBehaviour, IInstruction
             canvasReferences.ColorAnswer((int)assoziation.chosenOption, Color.red);
             canvasReferences.ColorAnswer((int)assoziation.correctOption, Color.green);
         }
-        else // Antwort richtig
-        {
-            canvasReferences.anweisung.text = "Die Antwort ist korrekt.\nBitte klicken Sie XXX um fortzufahren.";
-            canvasReferences.ColorAnswer((int)assoziation.correctOption, Color.green);
-        }
+        //else // Antwort richtig
+        //{
+        //    canvasReferences.anweisung.text = "Die Antwort ist korrekt.\nBitte klicken Sie XXX um fortzufahren.";
+        //    canvasReferences.ColorAnswer((int)assoziation.correctOption, Color.green);
+        //}
     }
 
 }

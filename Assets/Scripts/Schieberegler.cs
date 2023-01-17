@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Text.RegularExpressions;
 
 public class Schieberegler : MonoBehaviour
 {
     public float minZ;
     public float maxZ;
 
-    private float lastSliderZ;// = -9999;
+    public int value;
+
+    private float lastSliderZ;
+
 
 
     // Start is called before the first frame update
@@ -19,6 +23,8 @@ public class Schieberegler : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+
+        //Debug.Log(transform.position);
         if (gameObject.transform.position.z < minZ)
         {
             Vector3 vector3 = transform.position;
@@ -41,6 +47,16 @@ public class Schieberegler : MonoBehaviour
             //Debug.Log($"{other}, {other.transform.position}");
             lastSliderZ = other.gameObject.transform.position.z;
 
+            //get value from name
+            string string_value = Regex.Replace(other.name, "[^0-9.]", "");
+            try
+            {
+                value = int.Parse(string_value);
+            }
+            catch (System.FormatException)
+            {
+                //do nothing
+            }
         }
     }
 
@@ -52,14 +68,13 @@ public class Schieberegler : MonoBehaviour
 
     private void ReleaseSlider()
     {
-        if (lastSliderZ != -9999)
-        {
-            Vector3 vector3 = transform.position;
-            vector3.z = lastSliderZ;
-            transform.position = vector3;
-            //Debug.Log($"Slider released. new position {vector3}");
+        //make new position
+        Vector3 vector3 = transform.position;
+        vector3.z = lastSliderZ;
+        transform.position = vector3;
+        //Debug.Log($"Slider released. new position {vector3}");
 
-        }
+
     }
-    
+
 }
