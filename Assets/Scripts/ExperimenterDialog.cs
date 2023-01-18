@@ -32,11 +32,11 @@ public class ExperimenterDialog : MonoBehaviour
         else
         {
             Debug.Log(exitExperimentAnswers[incentivesDone]);
-            buttonText.text = exitExperimentButtonTexts[incentivesDone];
             Debug.LogWarning("Audio muss noch eingebunden werden.");
 
             // increase incentives
             incentivesDone++;
+            buttonText.text = exitExperimentButtonTexts[incentivesDone];
         }
     }
 
