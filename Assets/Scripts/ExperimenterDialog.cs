@@ -7,7 +7,11 @@ public class ExperimenterDialog : MonoBehaviour
 {
     [SerializeField] private GameObject debriefing;
     [SerializeField] private TextMeshProUGUI buttonText;
-    [SerializeField] private List<string> exitExperimentAnswers; // will be assigned in Inspector. This has to be replaced by audio files.
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip dangerAnswerAudio;
+    [SerializeField] private AudioClip weigerungSchueler;
+    [SerializeField] private AudioClip noAnswerAudio;
+    [SerializeField] private List<AudioClip> exitExperimentAnswers; // will be assigned in Inspector. This has to be replaced by audio files.
     [SerializeField] private List<string> exitExperimentButtonTexts;
 
     private int incentivesDone = 0;
@@ -31,8 +35,8 @@ public class ExperimenterDialog : MonoBehaviour
         }
         else
         {
-            Debug.Log(exitExperimentAnswers[incentivesDone]);
-            Debug.LogWarning("Audio muss noch eingebunden werden.");
+            // Debug.Log(exitExperimentAnswers[incentivesDone]);
+            audioSource.PlayOneShot(exitExperimentAnswers[incentivesDone], 1);
 
             // increase incentives
             incentivesDone++;
@@ -47,22 +51,21 @@ public class ExperimenterDialog : MonoBehaviour
 
     public void TellDangerAnswer()
     {
-        Debug.Log("Die Schocks mögen äußerts schmerzhaft sein, sie hinterlassen aber keine bleibenden Gewebeschädigungen. Machen sie also weiter!");
-        Debug.LogWarning("Audio muss noch eingebunden werden.");
+        audioSource.PlayOneShot(dangerAnswerAudio, 1);
         incentivesDone = 1;
     }
 
     public void TellStudentWantsToExitAnswer()
     {
-        Debug.Log("Ob es dem Schüler passt oder nicht, sie müssen weitermachen, bis er alle Wortpaare exakt gelernt hat. Fahren sie also fort!");
-        Debug.LogWarning("Audio muss noch eingebunden werden.");
+        audioSource.PlayOneShot(weigerungSchueler, 1);
         incentivesDone = 1;
     }
 
     public void TellStudentDidntAnswerAnswer()
     {
-        Debug.Log("Regelmäßige Anweisung, keine Antwort als falsch zu werten und dementsprechend zu bestrafen, Toleranzzeit von 5 - 10 Sekunden");
-        Debug.LogWarning("Audio muss noch eingebunden werden.");
+        audioSource.PlayOneShot(noAnswerAudio, 1);
+        //Debug.Log("Regelmäßige Anweisung, keine Antwort als falsch zu werten und dementsprechend zu bestrafen, Toleranzzeit von 5 - 10 Sekunden");
+        //Debug.LogWarning("Audio muss noch eingebunden werden.");
         //incentives will not increase. See https://gitlab2.informatik.uni-wuerzburg.de/hci/teaching/courses/special-topics-xr/student-materials/2022-winter/light-and-dark-sides-gruppe-1/-/wikis/Methodik%20des%20originalen%20Milgram%20Experiments#reaktionen-bei-nachfragen-durch-versuchsperson
     }
 }
