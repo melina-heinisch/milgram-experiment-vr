@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 public enum OptionEnum
 {
@@ -24,7 +25,7 @@ public class ContentAssociationspaar
     public OptionEnum chosenOption;
     public OptionEnum correctOption;
     public int timeToAnswerInSeconds;
-   // public AudioClip scream;
+    public AudioClip scream;
 
     public bool AnswerIsCorrect()
     {

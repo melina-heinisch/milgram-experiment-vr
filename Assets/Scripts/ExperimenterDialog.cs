@@ -5,6 +5,7 @@ using TMPro;
 
 public class ExperimenterDialog : MonoBehaviour
 {
+    [SerializeField] private float volume;
     [SerializeField] private GameObject debriefing;
     [SerializeField] private TextMeshProUGUI buttonText;
     [SerializeField] private AudioSource audioSource;
@@ -36,7 +37,7 @@ public class ExperimenterDialog : MonoBehaviour
         else
         {
             // Debug.Log(exitExperimentAnswers[incentivesDone]);
-            audioSource.PlayOneShot(exitExperimentAnswers[incentivesDone], 1);
+            audioSource.PlayOneShot(exitExperimentAnswers[incentivesDone], volume);
 
             // increase incentives
             incentivesDone++;
@@ -51,19 +52,19 @@ public class ExperimenterDialog : MonoBehaviour
 
     public void TellDangerAnswer()
     {
-        audioSource.PlayOneShot(dangerAnswerAudio, 1);
+        audioSource.PlayOneShot(dangerAnswerAudio, volume);
         incentivesDone = 1;
     }
 
     public void TellStudentWantsToExitAnswer()
     {
-        audioSource.PlayOneShot(weigerungSchueler, 1);
+        audioSource.PlayOneShot(weigerungSchueler, volume);
         incentivesDone = 1;
     }
 
     public void TellStudentDidntAnswerAnswer()
     {
-        audioSource.PlayOneShot(noAnswerAudio, 1);
+        audioSource.PlayOneShot(noAnswerAudio, volume);
         //Debug.Log("Regelm‰ﬂige Anweisung, keine Antwort als falsch zu werten und dementsprechend zu bestrafen, Toleranzzeit von 5 - 10 Sekunden");
         //Debug.LogWarning("Audio muss noch eingebunden werden.");
         //incentives will not increase. See https://gitlab2.informatik.uni-wuerzburg.de/hci/teaching/courses/special-topics-xr/student-materials/2022-winter/light-and-dark-sides-gruppe-1/-/wikis/Methodik%20des%20originalen%20Milgram%20Experiments#reaktionen-bei-nachfragen-durch-versuchsperson

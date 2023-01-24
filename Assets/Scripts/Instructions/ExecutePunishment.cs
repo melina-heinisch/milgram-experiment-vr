@@ -6,6 +6,9 @@ public class ExecutePunishment : MonoBehaviour, IInstruction
 {
     private PressButtonAnimation punishButton;
     private bool answerIsCorrect;
+    private float volume;
+    private AudioClip scream;
+    private AudioSource audioSource;
 
     private void Start()
     {
@@ -22,7 +25,8 @@ public class ExecutePunishment : MonoBehaviour, IInstruction
         // is punishment done?
         if (Input.GetKeyDown(KeyCode.Space) || punishButton.buttonIsPressed)
         {
-            Debug.LogWarning("Execute punishment. Sound not implemented");
+            audioSource.PlayOneShot(scream, volume);
+            //Debug.LogWarning("Execute punishment. Sound not implemented");
             return true;
         }
         else
@@ -33,6 +37,9 @@ public class ExecutePunishment : MonoBehaviour, IInstruction
 
     public void OnStartOfInstruction(ReferenceAssociationCanvas canvasReferences, ContentAssociationspaar assoziation)
     {
+        volume = canvasReferences.volume;
+        scream = assoziation.scream;
+        audioSource = canvasReferences.audioSource;
         answerIsCorrect = assoziation.AnswerIsCorrect();
         if (!answerIsCorrect)
         {
