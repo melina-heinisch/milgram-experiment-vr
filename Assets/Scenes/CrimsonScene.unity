@@ -12098,7 +12098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   debriefingCanvas: {fileID: 400524821}
   teachterMonitorReferences:
-    volume: 6
+    volume: 4
     audioSource: {fileID: 584285974}
     anweisung: {fileID: 354027563}
     assoziationspaar1: {fileID: 254636192}
@@ -12122,7 +12122,6 @@ MonoBehaviour:
     option4: Himmel
     chosenOption: 1
     correctOption: 4
-    timeToAnswerInSeconds: 0
     scream: {fileID: 0}
   - assoziationspaar1: Jahr - Kosten
     assoziationspaar2: "Spinne \u2014 Stange"
@@ -12133,9 +12132,8 @@ MonoBehaviour:
     option2: "K\xF6nig"
     option3: Kosten
     option4: "L\xF6we"
-    chosenOption: 3
+    chosenOption: 1
     correctOption: 3
-    timeToAnswerInSeconds: 0
     scream: {fileID: 0}
   - assoziationspaar1: "Onkel \u2014 Arzt"
     assoziationspaar2: Schlaf - Essen
@@ -12148,8 +12146,7 @@ MonoBehaviour:
     option4: Sohle
     chosenOption: 4
     correctOption: 2
-    timeToAnswerInSeconds: 0
-    scream: {fileID: 0}
+    scream: {fileID: 8300000, guid: 4014c31fc8b160746a253d5a3579e626, type: 3}
   - assoziationspaar1: Lied - Kind
     assoziationspaar2: "Motor \u2014 Farbe"
     assoziationspaar3: "Freund \u2014 Kuh"
@@ -12161,8 +12158,7 @@ MonoBehaviour:
     option4: Moral
     chosenOption: 2
     correctOption: 1
-    timeToAnswerInSeconds: 0
-    scream: {fileID: 0}
+    scream: {fileID: 8300000, guid: df88faff74cbba54c913fc20934ea3cf, type: 3}
   - assoziationspaar1: "Tinte \u2014 Furcht"
     assoziationspaar2: "Gew\xFCrz \u2014 Zeit"
     assoziationspaar3: "Truhe \u2014 Sommer"
@@ -12172,9 +12168,8 @@ MonoBehaviour:
     option2: Zeit
     option3: Tag
     option4: Tasse
-    chosenOption: 1
+    chosenOption: 2
     correctOption: 2
-    timeToAnswerInSeconds: 0
     scream: {fileID: 0}
   - assoziationspaar1: Stirn - Neger
     assoziationspaar2: "Klinik \u2014 Westen"
@@ -12187,8 +12182,7 @@ MonoBehaviour:
     option4: "Stra\xDFe"
     chosenOption: 4
     correctOption: 3
-    timeToAnswerInSeconds: 0
-    scream: {fileID: 0}
+    scream: {fileID: 8300000, guid: 03d4544984d0b474cb620aa55bac4f2a, type: 3}
   - assoziationspaar1: Makel - Darm
     assoziationspaar2: "Bl\xFCte \u2014 Auto"
     assoziationspaar3: Zoo - Fahrer
@@ -12200,7 +12194,6 @@ MonoBehaviour:
     option4: Hand
     chosenOption: 2
     correctOption: 2
-    timeToAnswerInSeconds: 0
     scream: {fileID: 0}
   - assoziationspaar1: "Kugel \u2014 Stufe"
     assoziationspaar2: "Weste \u2014 Lid"
@@ -12211,9 +12204,8 @@ MonoBehaviour:
     option2: "M\xF6hre"
     option3: Wald
     option4: Weise
-    chosenOption: 4
+    chosenOption: 1
     correctOption: 1
-    timeToAnswerInSeconds: 0
     scream: {fileID: 0}
   - assoziationspaar1: Schule - Wein
     assoziationspaar2: "Ohr \u2014 Alter"
@@ -12224,10 +12216,9 @@ MonoBehaviour:
     option2: Knecht
     option3: "S\xFCnde"
     option4: Alter
-    chosenOption: 4
+    chosenOption: 3
     correctOption: 4
-    timeToAnswerInSeconds: 0
-    scream: {fileID: 0}
+    scream: {fileID: 8300000, guid: 4ae4b667599af424ba1b94a353f3f831, type: 3}
   - assoziationspaar1: "Zucker \u2014 Feind"
     assoziationspaar2: "Stein \u2014 Traum"
     assoziationspaar3: "Sumpf \u2014 Blatt"
@@ -12237,9 +12228,8 @@ MonoBehaviour:
     option2: Rinde
     option3: Feind
     option4: Bad
-    chosenOption: 1
+    chosenOption: 3
     correctOption: 3
-    timeToAnswerInSeconds: 0
     scream: {fileID: 0}
   - assoziationspaar1: "Osten \u2014 W\xE4rme"
     assoziationspaar2: "Jugend \u2014 Zeiger"
@@ -12250,10 +12240,9 @@ MonoBehaviour:
     option2: Topf
     option3: Pfeife
     option4: Bart
-    chosenOption: 4
+    chosenOption: 1
     correctOption: 4
-    timeToAnswerInSeconds: 0
-    scream: {fileID: 0}
+    scream: {fileID: 8300000, guid: 5266bce4f312db94684c26c409f8492d, type: 3}
   - assoziationspaar1: "Laub \u2014 Haar"
     assoziationspaar2: Bohne - Strom
     assoziationspaar3: Magen - Jacke
@@ -12265,8 +12254,7 @@ MonoBehaviour:
     option4: Wolle
     chosenOption: 2
     correctOption: 3
-    timeToAnswerInSeconds: 0
-    scream: {fileID: 0}
+    scream: {fileID: 8300000, guid: 602d32bfa26d60b4e9d532fc55046e4f, type: 3}
   - assoziationspaar1: "Milch \u2014 Geh\xF6r"
     assoziationspaar2: "K\xE4fer \u2014 F\xFCller"
     assoziationspaar3: "Honig \u2014 Berg"
@@ -12276,9 +12264,8 @@ MonoBehaviour:
     option2: Norden
     option3: "Fl\xF6te"
     option4: Meer
-    chosenOption: 3
-    correctOption: 1
-    timeToAnswerInSeconds: 0
+    chosenOption: 1
+    correctOption: 3
     scream: {fileID: 0}
   - assoziationspaar1: "Heu \u2014 S\xE4nger"
     assoziationspaar2: "Post \u2014 Schatz"
@@ -12289,9 +12276,8 @@ MonoBehaviour:
     option2: Salat
     option3: "G\xFCrtel"
     option4: Biene
-    chosenOption: 4
+    chosenOption: 0
     correctOption: 4
-    timeToAnswerInSeconds: 0
     scream: {fileID: 0}
   - assoziationspaar1: Gabel - Ball
     assoziationspaar2: "Uhr \u2014 Frau"
@@ -12302,9 +12288,20 @@ MonoBehaviour:
     option2: Vase
     option3: Hund
     option4: Epoche
-    chosenOption: 4
+    chosenOption: 0
     correctOption: 2
-    timeToAnswerInSeconds: 0
+    scream: {fileID: 0}
+  - assoziationspaar1: "Kissen \u2014 Schere "
+    assoziationspaar2: 'Reis - Regal '
+    assoziationspaar3: 'Meer  - Stadt '
+    assoziationspaar4: 'Bild  - Tag '
+    hinweiswort: Meer
+    option1: Stier
+    option2: 'Wald '
+    option3: Stadt
+    option4: 'Schiff '
+    chosenOption: 0
+    correctOption: 3
     scream: {fileID: 0}
 --- !u!1 &1228798060 stripped
 GameObject:

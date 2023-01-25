@@ -27,13 +27,23 @@ public class WaitForAnswer : MonoBehaviour, IInstruction
 
     private IEnumerator InstructionWithCountDown()
     {
-        int number = 10;
+        int countdown = 10;
+        int timeToAnswer;
 
-        while (number >= Math.Max(0, 10 - _association.timeToAnswerInSeconds)) // if 'time to answer' > '10' it will only count to '0'
+        if (_association.chosenOption == OptionEnum.none)
         {
-            canvas.anweisung.text = $"Warten Sie auf die Antwort des Schülers ({number})";
+            timeToAnswer = 10;
+        }
+        else
+        {
+            timeToAnswer = UnityEngine.Random.Range(1, 5);
+        }
 
-            number--;
+        while (countdown >= 10 - timeToAnswer) // if 'time to answer' > '10' it will only count to '0'
+        {
+            canvas.anweisung.text = $"Warten Sie auf die Antwort des Schülers ({countdown})";
+
+            countdown--;
             yield return new WaitForSeconds(1);
         }
         done = true;

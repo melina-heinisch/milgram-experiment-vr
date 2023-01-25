@@ -16,7 +16,7 @@ public class IncreaseVolume : MonoBehaviour, IInstruction
 
     public bool isDone()
     {
-        if (answerIsCorrect)
+        if (answerIsCorrect || schieberegler.value == 10)
         {
             return true;
         }
@@ -37,7 +37,7 @@ public class IncreaseVolume : MonoBehaviour, IInstruction
         previousVolume = schieberegler.value;
         answerIsCorrect = assoziation.AnswerIsCorrect();
 
-        if (assoziation.timeToAnswerInSeconds > 10) // Zeit abgelaufen
+        if (assoziation.chosenOption == OptionEnum.none) // Zeit abgelaufen
         {
             canvasReferences.anweisung.text = "Die Zeit ist abgelaufen.\nBitte erhöhen Sie die Lautstärke.";
             canvasReferences.ColorAnswer(1, Color.red);
