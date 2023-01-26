@@ -2758,6 +2758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volume: 6
   debriefing: {fileID: 400524821}
+  debriefingText: {fileID: 1524526552}
   buttonText: {fileID: 158526106}
   audioSource: {fileID: 1916221900}
   dangerAnswerAudio: {fileID: 8300000, guid: ee8604896a895454197c36821450a63a, type: 3}
@@ -12202,6 +12203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debriefingCanvas: {fileID: 400524821}
+  debriefingText: {fileID: 1524526552}
   teachterMonitorReferences:
     volume: 4
     audioSource: {fileID: 584285974}
@@ -14580,7 +14582,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Platzhalter f\xFCr den Debriefing-Text"
+  m_text: "Dieses Experiment hatte den Zweck zu testen, wie Gehorsam man sich gegen\xFCber
+    Autorit\xE4tspersonen verh\xE4lt. W\xE4hrend dem Experiment wurden keine Personen
+    verletzt. Es wurden keine gef\xE4hlichen T\xF6ne abgespielt und ihr virtueller
+    Gegen\xFCber war nur simuliert. Dass Sie auch trotz Leiden des Sch\xFClers weiter
+    gemacht haben, ist eine normale Raktion und kann bei vielen Teilnehmern beobachtet
+    werden. Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an
+    die Versuchsleiter."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

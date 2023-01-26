@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class ExperimenterDialog : MonoBehaviour
 {
     [SerializeField] private float volume;
     [SerializeField] private GameObject debriefing;
+    [SerializeField] private TextMeshProUGUI debriefingText;
     [SerializeField] private TextMeshProUGUI buttonText;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip dangerAnswerAudio;
@@ -47,6 +49,7 @@ public class ExperimenterDialog : MonoBehaviour
 
     private void Debriefing()
     {
+        debriefingText.text = "Dieses Experiment hatte den Zweck zu testen, wie Gehorsam man sich gegenüber Autoritätspersonen verhält. Während dem Experiment wurden keine Personen verletzt. Es wurden keine gefählichen Töne abgespielt und ihr virtueller Gegenüber war nur simuliert. Ihr Abbruch zeugt davon, dass sie Mitgefühl für den Schüler gezeigt haben, das ist sehr lobenswert. Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an die Versuchsleiter.";
         debriefing.SetActive(true);
     }
 
