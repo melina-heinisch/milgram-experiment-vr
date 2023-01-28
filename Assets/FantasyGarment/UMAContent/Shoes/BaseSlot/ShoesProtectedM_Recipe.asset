@@ -12,19 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0188188c253e0c4bb9b46e19fa7312e, type: 3}
   m_Name: ShoesProtectedM_Recipe
   m_EditorClassIdentifier: 
+  label: 
+  resourcesOnly: 0
   recipeType: Wardrobe
   DisplayValue: ShoesProtectedM_Slot
   compatibleRaces:
   - HumanMale
+  - HumanMaleDCS
   wardrobeRecipeThumbs:
   - race: HumanMale
+    filename: 
+    thumb: {fileID: 0}
+  - race: HumanMaleDCS
     filename: 
     thumb: {fileID: 0}
   wardrobeSlot: Feet
   Hides:
   - MaleFeet
+  HideTags: []
   suppressWardrobeSlots: []
   activeWardrobeSet: []
   MeshHideAssets: []
-  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"BasicShoesM","scale":100,"copyIdx":-1,"overlays":[{"id":"SchoesLacedSoftLeatherM_Overlay","colorIdx":0,"rect":[0,0,0,0]},{"id":"SchoesLacedHolesM_Overlay","colorIdx":1,"rect":[0,0,0,0]},{"id":"SchoesLacedLacingM_Overlay","colorIdx":2,"rect":[0,0,0,0]},{"id":"SchoesSoleM_Overlay","colorIdx":3,"rect":[0,0,0,0]}]},{"id":"FootProtectionM","scale":100,"copyIdx":-1,"overlays":[{"id":"BootsSteelAddsDarkM_Overlay","colorIdx":4,"rect":[0,0,0,0]}]}],"colors":[],"fColors":[{"name":"","colors":[188,113,61,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[212,212,212,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":0,"race":"","packedDna":[]}'
+  OverrideDNA:
+    PreloadValues: []
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"BasicShoesM","scale":100,"copyIdx":-1,"overlays":[{"id":"SchoesLacedSoftLeatherM_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":0.0,"y":0.0,"z":0.0},"rotation":0.0},{"id":"SchoesLacedHolesM_Overlay","colorIdx":1,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":0.0,"y":0.0,"z":0.0},"rotation":0.0},{"id":"SchoesLacedLacingM_Overlay","colorIdx":2,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":0.0,"y":0.0,"z":0.0},"rotation":0.0},{"id":"SchoesSoleM_Overlay","colorIdx":1,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":0.0,"y":0.0,"z":0.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"FootProtectionM","scale":100,"copyIdx":-1,"overlays":[{"id":"BootsSteelAddsDarkM_Overlay","colorIdx":1,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":0.0,"y":0.0,"z":0.0},"rotation":0.0}],"Tags":[],"Races":[]}],"colors":[],"fColors":[{"name":"-","colors":[188,113,61,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false},{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false},{"name":"-","colors":[212,212,212,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false}],"sharedColorCount":0,"race":"","packedDna":[]}'
+  IncompatibleRecipes: []
+  UserField: 
   replaces: Nothing
