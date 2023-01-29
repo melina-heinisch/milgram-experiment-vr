@@ -15,7 +15,7 @@ C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49899
+62306
 Successfully changed project path to: C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1
 C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 219.21 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.78 ms.
+Refreshing native plugins compatible for Editor in 294.60 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.81 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Uni/Light & Dark Sides of XR/Repository/light-and-dark-sides-gruppe-1/Assets
@@ -64,51 +64,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008179 seconds.
+Registered in 0.012415 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 201.86 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 233.65 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  1.062 seconds
 Domain Reload Profiling:
-	ReloadAssembly (902ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (668ms)
-			LoadAssemblies (101ms)
+		EndReloadAssembly (758ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (451ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (509ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (202ms)
+				RefreshPlugins (234ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.019935 seconds.
+Registered in 0.017070 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 186.71 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 226.64 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -116,944 +116,218 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.78.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.705 seconds
+- Completed reload, in  2.092 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1706ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (2093ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1463ms)
-			LoadAssemblies (108ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1785ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
+			SetupTypeCache (402ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (818ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (1037ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (187ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (450ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (187.8 KB). Loaded Objects now: 6574.
-Memory consumption went from 230.9 MB to 230.7 MB.
-Total: 3.389800 ms (FindLiveObjects: 0.400200 ms CreateObjectMapping: 0.220300 ms MarkObjects: 2.514400 ms  DeleteObjects: 0.253700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1067.252652 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBeard2.asset
-  artifactKey: Guid(506e811243229714bb4e2386dcbc08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBeard2.asset using Guid(506e811243229714bb4e2386dcbc08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531736da9492186918dbdac4a24aad51') in 0.060188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBrowHR2.asset
-  artifactKey: Guid(af0f5dedaabf3e946b78b4552139b9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBrowHR2.asset using Guid(af0f5dedaabf3e946b78b4552139b9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e9270c79adbb1c1b8e7e4367cf4431') in 0.006795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleGloves.asset
-  artifactKey: Guid(3371b0b14f340764c88dc58574e73393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleGloves.asset using Guid(3371b0b14f340764c88dc58574e73393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c8837ecd3db6db41c2c716d6edb3d8') in 0.007410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBrowHR.asset
-  artifactKey: Guid(3a1edb5d395b68f4089d59c1f1217d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBrowHR.asset using Guid(3a1edb5d395b68f4089d59c1f1217d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7e8a931547ac5afbb6775335841d66') in 0.007838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleHair2.asset
-  artifactKey: Guid(bc2ac8c776a97fa46a5a1a9455599f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleHair2.asset using Guid(bc2ac8c776a97fa46a5a1a9455599f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bf4c2789f0df6ead5e93ecb416fa6d') in 0.008034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleHair3.asset
-  artifactKey: Guid(cbac10d2bc6792c43b0d89e71534cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleHair3.asset using Guid(cbac10d2bc6792c43b0d89e71534cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13d111617d0029ae737bfb65f9c9e4b') in 0.005671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleRobe Hood.asset
-  artifactKey: Guid(8b7b033a94e0a9f4dbdded4f45aea63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleRobe Hood.asset using Guid(8b7b033a94e0a9f4dbdded4f45aea63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f3ffcc13907a3296576a868c3a2219') in 0.008036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBrow02.asset
-  artifactKey: Guid(9d8d16d74d7897e4caae12ca4d56f223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBrow02.asset using Guid(9d8d16d74d7897e4caae12ca4d56f223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887652efa654e04e3456b20c6ad63de8') in 0.008061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBeard3.asset
-  artifactKey: Guid(1df4eb647357a74498fa7e6b4672ad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBeard3.asset using Guid(1df4eb647357a74498fa7e6b4672ad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4193237cd3db1b525b21145e18a515') in 0.007209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleEye5.asset
-  artifactKey: Guid(667840f679650844dbfbd6f3a4134998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleEye5.asset using Guid(667840f679650844dbfbd6f3a4134998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed734c2393150a63c62648a7f94ba2b') in 0.007224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleShirt2.asset
-  artifactKey: Guid(08ee8add251c0604787435e6e676f3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleShirt2.asset using Guid(08ee8add251c0604787435e6e676f3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089e860fba8e61d1d1e786c635aaf119') in 0.006339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleHair1.asset
-  artifactKey: Guid(4acc51a73e0e5884eb7e770d8f803e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleHair1.asset using Guid(4acc51a73e0e5884eb7e770d8f803e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b28ed1add7f3b9f5ecfeada72ab845') in 0.006622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleRobe.asset
-  artifactKey: Guid(1ca738b353812974b9fb17357f844bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleRobe.asset using Guid(1ca738b353812974b9fb17357f844bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f2451b0bed03087bc585156314bb61') in 0.011117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.139074 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Hair/MaleEyebrow02_Normal.png
-  artifactKey: Guid(c693d553f21b346c896e6f293d09ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Hair/MaleEyebrow02_Normal.png using Guid(c693d553f21b346c896e6f293d09ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0465c2674c12dbdde23732ea0b60bcb0') in 0.096609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.117435 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Hair/M_Eyebrows_N.png
-  artifactKey: Guid(b9570a0908de1e045991045ea1849ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Hair/M_Eyebrows_N.png using Guid(b9570a0908de1e045991045ea1849ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d41cc74d89659cf153dfd70145a38dc') in 0.021521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.092679 seconds.
-  path: Assets/UMA/Content/Core/HumanMale/Textures/Hair/M_Eyebrows_N2.png
-  artifactKey: Guid(68bd2b240acdbbf40856cf64aa1486e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Core/HumanMale/Textures/Hair/M_Eyebrows_N2.png using Guid(68bd2b240acdbbf40856cf64aa1486e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16073ab7d3ced0f2b069a7898bff0b2') in 0.019500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.617517 seconds.
-  path: Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Aligator_Eye_Albedo_Adjust.png
-  artifactKey: Guid(7f44023a3b32c334aaa4ad226e0a2627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Aligator_Eye_Albedo_Adjust.png using Guid(7f44023a3b32c334aaa4ad226e0a2627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa1178c7173fd6f412aff5f62d229fd') in 0.018697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Eye_Normal_Adjust.psd
-  artifactKey: Guid(48f2433eaef670144b5d5270a1f9062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Eye_Normal_Adjust.psd using Guid(48f2433eaef670144b5d5270a1f9062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a41d20fd2347e317d9734c1bceded75') in 0.027016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.316594 seconds.
-  path: Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Cat_Eye_Albedo_Adjust.png
-  artifactKey: Guid(66d6b2f3a4f1dab4981dee867adc657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Cat_Eye_Albedo_Adjust.png using Guid(66d6b2f3a4f1dab4981dee867adc657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa3cc2b2a387fe15a042a6efc45df66') in 0.014500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.092461 seconds.
-  path: Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Cat_Eye_Alternate_Albedo_Adjust.png
-  artifactKey: Guid(eeab9a37ed522ff46bf429d021f78862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Cat_Eye_Alternate_Albedo_Adjust.png using Guid(eeab9a37ed522ff46bf429d021f78862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2da8028993877faccb965ac50e692b5') in 0.014014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.715291 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/Eye_Large_Thumb.png
-  artifactKey: Guid(0bc9cedffe822aa4d8e9778f22f0436e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/Eye_Large_Thumb.png using Guid(0bc9cedffe822aa4d8e9778f22f0436e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483364ca3d9320f04fdf6c4a6b56ce00') in 0.037117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Eye_Large_Albedo_Adjust.png
-  artifactKey: Guid(953679261e03f82428f59b24631e30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Core/HumanShared/Textures/Face/Eye/EyeAdjust/Eye_Large_Albedo_Adjust.png using Guid(953679261e03f82428f59b24631e30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb22df9e1631d199b1e3e8257cc291d1') in 0.019138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.249740 seconds.
-  path: Assets/UMA/Content/Core/HumanMale/Textures/Face/M_H_face_NOlder.png
-  artifactKey: Guid(0b80b30d8b2363d4aab8bfcba08a1e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Core/HumanMale/Textures/Face/M_H_face_NOlder.png using Guid(0b80b30d8b2363d4aab8bfcba08a1e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76ae1a454572c85065b4adefd046f61') in 0.024519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.951463 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Gloves Of Hammer_albedo.png
-  artifactKey: Guid(a1f6d7f6fcaea8d469a6eadc4c9e5a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Gloves Of Hammer_albedo.png using Guid(a1f6d7f6fcaea8d469a6eadc4c9e5a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22470b5ac003a8f1ec1835304a65b404') in 0.027636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Gloves Of Hammer_metallic.png
-  artifactKey: Guid(f5781018af67cdf4098e88b819136bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Gloves Of Hammer_metallic.png using Guid(f5781018af67cdf4098e88b819136bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc21276440b9292267e1974054a2e8b9') in 0.020598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.087104 seconds.
-  path: Assets/UMA/Content/Contrib/Textures/Cap_Shadow.png
-  artifactKey: Guid(a3fd3ee4f9e796c469f319488ca1d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Contrib/Textures/Cap_Shadow.png using Guid(a3fd3ee4f9e796c469f319488ca1d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cf94698bb402162beccad7f11a058f') in 0.019619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UMA/Content/Contrib/Textures/Cap_Hair Heightmap.png
-  artifactKey: Guid(bc5c8b0d1465e7e4aa513524f4c04b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Contrib/Textures/Cap_Hair Heightmap.png using Guid(bc5c8b0d1465e7e4aa513524f4c04b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb8ca825bc8b0076df23d2b7235971f') in 0.020356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.388413 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/MaleHair 2.png
-  artifactKey: Guid(d0b91ee4351721246b7b64d07bf3c91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/MaleHair 2.png using Guid(d0b91ee4351721246b7b64d07bf3c91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e544d730e4b5170ffa963061a1254a') in 0.025646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.110149 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/MaleHair 3.png
-  artifactKey: Guid(0676cfe89e9a6ef46a8511c5149d93c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/MaleHair 3.png using Guid(0676cfe89e9a6ef46a8511c5149d93c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8daead9f86440c94aaf863c09a94b3') in 0.027549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Hair/MaleHair01_Roughness.png
-  artifactKey: Guid(1579cf108bfa04bdca517a8faea7e535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Hair/MaleHair01_Roughness.png using Guid(1579cf108bfa04bdca517a8faea7e535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a256d5b3f20d1636f1c0985378649b') in 0.024476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.176115 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/M_Pants_00_Normal.png
-  artifactKey: Guid(55c307f00e33a424ea317251a9ba1363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/M_Pants_00_Normal.png using Guid(55c307f00e33a424ea317251a9ba1363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034a023efb79e8c81f413894f85821b1') in 0.031725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.057776 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleJeans01_Normal.png
-  artifactKey: Guid(e822c12c3b38e4cbdbb419c94040eab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleJeans01_Normal.png using Guid(e822c12c3b38e4cbdbb419c94040eab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bf3377b23ce876dfa4012abe306848') in 0.022499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.929205 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Lower_A.png
-  artifactKey: Guid(ef1e1998915393648808208e87e5cc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Lower_A.png using Guid(ef1e1998915393648808208e87e5cc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec8cbe89a707aa36236377f8fc5d456') in 0.017936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Lower_N.png
-  artifactKey: Guid(f1ee058b12e74a645a810b248c336ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Lower_N.png using Guid(f1ee058b12e74a645a810b248c336ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b4055a31922b706e0e4e7eac6d3b5b') in 0.026889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.770609 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Hood/Altar_hood_A.png
-  artifactKey: Guid(336187aa7b3190f488804be99f650b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Hood/Altar_hood_A.png using Guid(336187aa7b3190f488804be99f650b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54d3c17da269042cccb238a12ef954a') in 0.019809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Hood/Altar_hood_M.png
-  artifactKey: Guid(14a815c7716781843bb171b88a227cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Hood/Altar_hood_M.png using Guid(14a815c7716781843bb171b88a227cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2b44d9c18f084f62767a459ffd3f21') in 0.025353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Hood/Altar_hood_AC.png
-  artifactKey: Guid(3994de13deb5d5a409b414a7c747d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Hood/Altar_hood_AC.png using Guid(3994de13deb5d5a409b414a7c747d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bebc4a641ed85819a0097fd2d94b95') in 0.017244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.678340 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Boots/Boots_N.png
-  artifactKey: Guid(04c319227d59d73439289200f697f339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/Boots/Boots_N.png using Guid(04c319227d59d73439289200f697f339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6f6f1ade40d8cb75f076daec27a5d3') in 0.023964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.391361 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleShirt01_Albedo.png
-  artifactKey: Guid(f81cce6b25bb84582870e7d712d68918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleShirt01_Albedo.png using Guid(f81cce6b25bb84582870e7d712d68918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca98db1c969dcbaf1a9323b8a44cd066') in 0.022138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleShirt01_Normal.png
-  artifactKey: Guid(f8cf9468b3cf148148dd1f220bda6c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleShirt01_Normal.png using Guid(f8cf9468b3cf148148dd1f220bda6c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ea65e34e3553d19afbf81ac484a5f2') in 0.019461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.442128 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/ShirtPlain.png
-  artifactKey: Guid(8029b025237f8b24aa5dd4e4e0b3566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/ShirtPlain.png using Guid(8029b025237f8b24aa5dd4e4e0b3566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cfe0dfabaf896fdf066260a487ad41') in 0.025000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.355766 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleUnderwear_Albedo.png
-  artifactKey: Guid(6c28ac0bb8720487d809016aba0fec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleUnderwear_Albedo.png using Guid(6c28ac0bb8720487d809016aba0fec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6afe748caeca497f3893b7b6facf00') in 0.018998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleUnderwear_Roughness.png
-  artifactKey: Guid(687094bd323754d0d831e78ebb58962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/MaleUnderwear_Roughness.png using Guid(687094bd323754d0d831e78ebb58962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38c7f99949e17a5a1aaef77bdb85456') in 0.022543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.292542 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/ShortsHearts.png
-  artifactKey: Guid(14d6e9ed3622d554b890ab3e4914e8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/Thumbs/ShortsHearts.png using Guid(14d6e9ed3622d554b890ab3e4914e8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a62f8ec4c2178a5191c3871a1c97f0') in 0.028516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.609568 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/M_H_Underwear_Albedo.png
-  artifactKey: Guid(42a14c30761d02648aee3c20858ffdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/M_H_Underwear_Albedo.png using Guid(42a14c30761d02648aee3c20858ffdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9d8c73cdc3db129c8f18d5b7108bb4') in 0.021901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UMA/Content/Example/HumanMale/Textures/Clothing/M_H_Underwear_N.png
-  artifactKey: Guid(32afddac09b8ce5479274e5822dbb54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Example/HumanMale/Textures/Clothing/M_H_Underwear_N.png using Guid(32afddac09b8ce5479274e5822dbb54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b2a5346cbc3c7749ec06a558c7dcee') in 0.021760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.564853 seconds.
-  path: Assets/UMA/Content/Core/HumanMale/Recipes/WardrobeRecipes/MaleLowPolyHead.asset
-  artifactKey: Guid(7356d4035c83d294a923daa7e8155670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Core/HumanMale/Recipes/WardrobeRecipes/MaleLowPolyHead.asset using Guid(7356d4035c83d294a923daa7e8155670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25f88161d5cad401a8b6488a30f761d') in 0.007335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UMA/Content/Core/HumanMale/Recipes/WardrobeRecipes/MaleSmoothSkin.asset
-  artifactKey: Guid(46d9ef59d4ce84948a0b835d21d9a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/Core/HumanMale/Recipes/WardrobeRecipes/MaleSmoothSkin.asset using Guid(46d9ef59d4ce84948a0b835d21d9a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245be40a0630e5773d88dcedf1111ed0') in 0.006499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.636950 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/SchoesLaceUpBlackM_Recipe.asset
-  artifactKey: Guid(f87c624ef89ec6a42a1e00b0879bf1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/SchoesLaceUpBlackM_Recipe.asset using Guid(f87c624ef89ec6a42a1e00b0879bf1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d16f72131b6bde102060c187d37d60') in 0.005086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/ShoesSideOverlaySturdyF_Recipe.asset
-  artifactKey: Guid(c9d0b955dafd8c545ab70cb3a09f7d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/ShoesSideOverlaySturdyF_Recipe.asset using Guid(c9d0b955dafd8c545ab70cb3a09f7d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711e1bd42de8c702006d042a0deed53d') in 0.006057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/SchoesLaceUpBlackYellowM_Recipe.asset
-  artifactKey: Guid(e4775bf1c6433b84f9ef27dd8de95e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/SchoesLaceUpBlackYellowM_Recipe.asset using Guid(e4775bf1c6433b84f9ef27dd8de95e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70c80a1d48c0848e7cf4acff92c853f') in 0.007049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/SchoesLaceUpBlackYellowF_Recipe.asset
-  artifactKey: Guid(1e027317302999a429bef48964186418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/SchoesLaceUpBlackYellowF_Recipe.asset using Guid(1e027317302999a429bef48964186418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d7d28ec3bc3df4b8ff28ef072796f9') in 0.008650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/ShoesProtectedF_Recipe.asset
-  artifactKey: Guid(12351af5ae9f0f7439d9a1992bba2967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/ShoesProtectedF_Recipe.asset using Guid(12351af5ae9f0f7439d9a1992bba2967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40ddac9afad15e728b8713da018638f') in 0.006287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/SchoesLaceUpCapBrownF_Recipe.asset
-  artifactKey: Guid(a8453fa1827beab4a9913132131d0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/SchoesLaceUpCapBrownF_Recipe.asset using Guid(a8453fa1827beab4a9913132131d0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9318a452e937b9d2ba4780e9f804647') in 0.005912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.444242 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SchoesLacedM_normal.png
-  artifactKey: Guid(dd9d5fac174fa644d8e8a918e31ec835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SchoesLacedM_normal.png using Guid(dd9d5fac174fa644d8e8a918e31ec835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf0dd14d81aba35826885777c1b8e9b') in 0.019374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Holes/SchoesLacedHolesM_diffuse.png
-  artifactKey: Guid(57267640c22c08a4c9535b1c2349fb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Holes/SchoesLacedHolesM_diffuse.png using Guid(57267640c22c08a4c9535b1c2349fb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf01d0d91b3356d95aa1cf164a449e1a') in 0.021253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySole/SchoesSoleM_normal.png
-  artifactKey: Guid(88d2c9f7945d1e948a79c41085281c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySole/SchoesSoleM_normal.png using Guid(88d2c9f7945d1e948a79c41085281c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78203a06eb593d27a2e63d456011dd08') in 0.019717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySole/SchoesSoleM_metall.png
-  artifactKey: Guid(04d6fec38d2de254096a0769e580f873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySole/SchoesSoleM_metall.png using Guid(04d6fec38d2de254096a0769e580f873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57840999988c24d05aa63586c8667109') in 0.021386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Lacing/SchoesLacedLacingM_metall.png
-  artifactKey: Guid(9ed34c55e747e664ab661a536a3cd05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Lacing/SchoesLacedLacingM_metall.png using Guid(9ed34c55e747e664ab661a536a3cd05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33acded0c909197ad5843898126083d0') in 0.020209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/HardLeather/SchoesLacedHardLeatherM_metall.png
-  artifactKey: Guid(515048e029c566449abfd0cd7131ae61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/HardLeather/SchoesLacedHardLeatherM_metall.png using Guid(515048e029c566449abfd0cd7131ae61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4f376f84f4e8d0c758a2f41d99659b') in 0.024115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.558257 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SchoesLacedF_normal.png
-  artifactKey: Guid(60ec0afaae3492a4bb241bc0682ae05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SchoesLacedF_normal.png using Guid(60ec0afaae3492a4bb241bc0682ae05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91a7bd1de0dfe6093a38212040ecc54') in 0.023268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Holes/SchoesLacedHolesF_normal.png
-  artifactKey: Guid(8d3959c5c818d4b4589a524a28d2e8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Holes/SchoesLacedHolesF_normal.png using Guid(8d3959c5c818d4b4589a524a28d2e8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65393f4df99de63097d243ebe61fec7c') in 0.021117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Holes/SchoesLacedHolesF_metall.png
-  artifactKey: Guid(199c48a1cd5f7bf4db9ef51c77ce4798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Holes/SchoesLacedHolesF_metall.png using Guid(199c48a1cd5f7bf4db9ef51c77ce4798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19edfca3059645d0eea50be7b9a5a1ea') in 0.020751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/MiddleSoftLeather/SchoesLacedMiddleSoftLeatherF_diffuse.png
-  artifactKey: Guid(47c1659afbe42474c93bec8019bee1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/MiddleSoftLeather/SchoesLacedMiddleSoftLeatherF_diffuse.png using Guid(47c1659afbe42474c93bec8019bee1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cab00b13ee0739eacfb251f745a764') in 0.022063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/MiddleSoftLeather/SchoesLacedMiddleSoftLeatherF_metall.png
-  artifactKey: Guid(9646717c4bea0e14bae5061502a789e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/MiddleSoftLeather/SchoesLacedMiddleSoftLeatherF_metall.png using Guid(9646717c4bea0e14bae5061502a789e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223967c681bd10908fd0f191e0b131a5') in 0.017800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySole/SchoesSoleF_diffuse.png
-  artifactKey: Guid(2dbbae6cc7499024e9db1bee67ee8b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySole/SchoesSoleF_diffuse.png using Guid(2dbbae6cc7499024e9db1bee67ee8b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5c43e1b1fdc886ed5542ce8582ea9d') in 0.023029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Lacing/SchoesLacedLacingF_diffuse.png
-  artifactKey: Guid(803aa0c1289928b49a0795c22a6e2d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/Lacing/SchoesLacedLacingF_diffuse.png using Guid(803aa0c1289928b49a0795c22a6e2d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409a1572bd9c1881e6df6a07c6707221') in 0.022063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySole/SchoesSoleF_metall.png
-  artifactKey: Guid(8be5df393b5371e468586ecd2d803ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySole/SchoesSoleF_metall.png using Guid(8be5df393b5371e468586ecd2d803ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bedfcfb71d6dd1e1df6bf09e2d97969') in 0.017583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.607399 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SchoesLacedMiddleM_normal.png
-  artifactKey: Guid(b5d293b3c893b0e448d8f61c5e915645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SchoesLacedMiddleM_normal.png using Guid(b5d293b3c893b0e448d8f61c5e915645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed1ae7ca680e0802a523fc2d7248550') in 0.017940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/MiddleSoftLeather/SchoesLacedMiddleSoftLeatherM_metall.png
-  artifactKey: Guid(d7f6433f470d32941b847966d026da16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/MiddleSoftLeather/SchoesLacedMiddleSoftLeatherM_metall.png using Guid(d7f6433f470d32941b847966d026da16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee169866edfc380f5e49160af5d66ac') in 0.017812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.496885 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySteelCap/SchoesSteelCapF_normal.png
-  artifactKey: Guid(d4f0f23e56563aa4b9f658ee0779f2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySteelCap/SchoesSteelCapF_normal.png using Guid(d4f0f23e56563aa4b9f658ee0779f2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63c22570ffbf95b4a5bf2c4d66ba213') in 0.018787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySteelCap/Bright/SchoesSteelCapBrightF_metall.png
-  artifactKey: Guid(fd05cdcc2b3ab2f47be51ac5b211efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySteelCap/Bright/SchoesSteelCapBrightF_metall.png using Guid(fd05cdcc2b3ab2f47be51ac5b211efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32c99221a63d0f3c37e822b629c6aa1') in 0.021471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.878996 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySteelCap/SchoesSteelCapM_normal.png
-  artifactKey: Guid(32de84c4f8d07634b97874fcdb278eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlaySteelCap/SchoesSteelCapM_normal.png using Guid(32de84c4f8d07634b97874fcdb278eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b361769415cc46ba0807242b1f96795e') in 0.018604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.199712 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SoftLeather/SchoesLacedSoftLeatherF_metall.png
-  artifactKey: Guid(8993ba9ab5636d545b8429f3074c58cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SoftLeather/SchoesLacedSoftLeatherF_metall.png using Guid(8993ba9ab5636d545b8429f3074c58cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d4d89756d0b828dcf8248bec055ba2') in 0.018150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/FantasyGarment/UMAContent/Boots/BaseSlot/ModularSteelBoots/_overlayBootsSteelAdda/Dark/BootsSteelAddsDarkF_diffuse.png
-  artifactKey: Guid(3bdf2092cf4a661449d5aa504b25f30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Boots/BaseSlot/ModularSteelBoots/_overlayBootsSteelAdda/Dark/BootsSteelAddsDarkF_diffuse.png using Guid(3bdf2092cf4a661449d5aa504b25f30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6101ad3c0e4741379f3395df8a7e275a') in 0.021074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.691457 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SoftLeather/SchoesLacedSoftLeatherM_metall.png
-  artifactKey: Guid(a9b4993535f295e47806da7708cc180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayLaced/SoftLeather/SchoesLacedSoftLeatherM_metall.png using Guid(a9b4993535f295e47806da7708cc180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725d6155a5489765a06ea4c543e63af0') in 0.016935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/FantasyGarment/UMAContent/Boots/BaseSlot/ModularSteelBoots/_overlayBootsSteelAdda/Dark/BootsSteelAddsDarkM_diffuse.png
-  artifactKey: Guid(e9231b775ffbb644083197a7ac387212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Boots/BaseSlot/ModularSteelBoots/_overlayBootsSteelAdda/Dark/BootsSteelAddsDarkM_diffuse.png using Guid(e9231b775ffbb644083197a7ac387212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2b20f519491fd72364ce20b8be225f') in 0.023962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.006722 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/SchoesBuckledF_normal.png
-  artifactKey: Guid(7b08bd11943dec44dbd6e83bf1edd157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/SchoesBuckledF_normal.png using Guid(7b08bd11943dec44dbd6e83bf1edd157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10905c0af25edd130f33f4f7cca05d7') in 0.025297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/SoftLeather/SchoesBuckledSoftLeatherF_metall.png
-  artifactKey: Guid(e720cb9b26ad14741b991d11a35f2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/SoftLeather/SchoesBuckledSoftLeatherF_metall.png using Guid(e720cb9b26ad14741b991d11a35f2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111734cc5e4c2b10f4dc3198d09f0856') in 0.019480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/Clasp/SchoesBuckledClaspF_normal.png
-  artifactKey: Guid(68cb2bd22cfe8bf4482244b4679ff6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/Clasp/SchoesBuckledClaspF_normal.png using Guid(68cb2bd22cfe8bf4482244b4679ff6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594f51018fc21fc2ff391ab50d72dbb7') in 0.018833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.711876 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/SchoesBuckledM_normal.png
-  artifactKey: Guid(de7a5de7cf5e85d4e8c369d6d9701858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/SchoesBuckledM_normal.png using Guid(de7a5de7cf5e85d4e8c369d6d9701858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59d96e8ff352d2efc52bc73319e4255') in 0.020373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/Clasp/SchoesBuckledClaspM_metall.png
-  artifactKey: Guid(37efc64fcf7823d4ab0cd17992233d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/Clasp/SchoesBuckledClaspM_metall.png using Guid(37efc64fcf7823d4ab0cd17992233d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a602ac9d2d928342a0ce70b8b76a9c6') in 0.024360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/SoftLeather/SchoesBuckledSoftLeatherM_metall.png
-  artifactKey: Guid(ecaa4cdb92f21544eb73b6dd346342d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/SoftLeather/SchoesBuckledSoftLeatherM_metall.png using Guid(ecaa4cdb92f21544eb73b6dd346342d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0caf6f75d83105cfe42e535001cb3b9c') in 0.019709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.919962 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/HardLeather/SchoesBuckledHardLeatherF_metall.tif
-  artifactKey: Guid(f048fcbfeb5b8e44790292132581010c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/HardLeather/SchoesBuckledHardLeatherF_metall.tif using Guid(f048fcbfeb5b8e44790292132581010c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5600cd929f1fbddc055cb20b128748b') in 0.035273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.103665 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/HardLeather/SchoesBuckledHardLeatherM_metall.png
-  artifactKey: Guid(e582c7e014247c64d805894db266effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shoes/BaseSlot/_overlayBuckled/HardLeather/SchoesBuckledHardLeatherM_metall.png using Guid(e582c7e014247c64d805894db266effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582506adbdcbc6356cea15a70dd2dd8b') in 0.022034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 234.683587 seconds.
-  path: Assets/FantasyGarment/UMAContent/BasicTextures/empty_normal.png
-  artifactKey: Guid(d4e6bdde1fab20c488ad69cdff8db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/BasicTextures/empty_normal.png using Guid(d4e6bdde1fab20c488ad69cdff8db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1fe9185fdf604509a9f303023845aa') in 0.018971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/FantasyGarment/UMAContent/BasicTextures/empty_specularGreen.png
-  artifactKey: Guid(8343ffbb088be87438e84eab0fcb074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/BasicTextures/empty_specularGreen.png using Guid(8343ffbb088be87438e84eab0fcb074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8344517a1180fcbd50e347fd793f303b') in 0.055007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FantasyGarment/UMAContent/BasicTextures/empty_specularRed.png
-  artifactKey: Guid(12ba5a93369bdaf4a8c88e6c224803b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/BasicTextures/empty_specularRed.png using Guid(12ba5a93369bdaf4a8c88e6c224803b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b48929127872336a42c0c75ed07495d') in 0.014731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.062167 seconds.
-  path: Assets/FantasyGarment/UMAContent/Basic/BasicBootsM/BasicBootsM_Overlay.asset
-  artifactKey: Guid(be416fb914f4ed84bb26ff126adde06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Basic/BasicBootsM/BasicBootsM_Overlay.asset using Guid(be416fb914f4ed84bb26ff126adde06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3343b2a6a2b1161e3edfa8b508a242f6') in 0.015721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/FantasyGarment/UMAContent/Basic/BasicBootsM/BasicBootsM_Recipe.asset
-  artifactKey: Guid(6f55133f12989564aac3d3e25109843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Basic/BasicBootsM/BasicBootsM_Recipe.asset using Guid(6f55133f12989564aac3d3e25109843f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298ca89e4c21e82b6e8c72cab1e41c97') in 0.029550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/FantasyGarment/UMAContent/Basic/BasicBootsM/BasicBootsM_Skinned.prefab
-  artifactKey: Guid(47b7e3a40fb6b844196a7d3d9e5774b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Basic/BasicBootsM/BasicBootsM_Skinned.prefab using Guid(47b7e3a40fb6b844196a7d3d9e5774b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257f584f988e4801cdb8e64e9a0d77a1') in 0.069293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.883806 seconds.
-  path: Assets/FantasyGarment/UMAContent/Basic/BasicShirtM/BasicShirtM_Recipe.asset
-  artifactKey: Guid(f12be5eb713171c4caf28c0e212efda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Basic/BasicShirtM/BasicShirtM_Recipe.asset using Guid(f12be5eb713171c4caf28c0e212efda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3672bbab164af013a2dd0cccb0674f80') in 0.007021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FantasyGarment/UMAContent/Basic/BasicShirtM/Male_Shirt.asset
-  artifactKey: Guid(289e6219b00be0c4a9f6bad7ce7e5018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Basic/BasicShirtM/Male_Shirt.asset using Guid(289e6219b00be0c4a9f6bad7ce7e5018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dab3e5911211213d9938c156337d838') in 0.050892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 115.910341 seconds.
-  path: Assets/FantasyGarment/UMAContent/Basic/BasicShoesM/BasicShoesM_Recipe.asset
-  artifactKey: Guid(244b535fc744ca547a84af4240bc92b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Basic/BasicShoesM/BasicShoesM_Recipe.asset using Guid(244b535fc744ca547a84af4240bc92b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f73c64ce4ca3dd949fe720853ae3caa') in 0.005342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FantasyGarment/UMAContent/Basic/BasicShoesM/BasicShoesM_Skinned.prefab
-  artifactKey: Guid(2598b327ad11e614191c6bf658a230d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Basic/BasicShoesM/BasicShoesM_Skinned.prefab using Guid(2598b327ad11e614191c6bf658a230d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f090228b543d45a275622bb44bd1161') in 0.032025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.697680 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtButtonDownLinenM_Recipe.asset
-  artifactKey: Guid(0ff55a04a6cf692478b56fd27628a14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtButtonDownLinenM_Recipe.asset using Guid(0ff55a04a6cf692478b56fd27628a14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83d05ce47ad7f8e2e9b3715257ed2ac') in 0.006983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtButtonDownWhiteF_Recipe.asset
-  artifactKey: Guid(eb465fcc940f5da4aa7a34bb004fbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtButtonDownWhiteF_Recipe.asset using Guid(eb465fcc940f5da4aa7a34bb004fbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7bc02ddadb42af2e3f53345c96b2e3') in 0.005703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtLacedLinenPatchedM_Recipe.asset
-  artifactKey: Guid(80c549043bbba874fb04d7486b4751e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtLacedLinenPatchedM_Recipe.asset using Guid(80c549043bbba874fb04d7486b4751e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bdc9736e3733a1568b3a94c60670b0') in 0.006867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtLacedLinenPatchedF_Recipe.asset
-  artifactKey: Guid(782f8d4fc216acd41a7a91b1e6f35dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtLacedLinenPatchedF_Recipe.asset using Guid(782f8d4fc216acd41a7a91b1e6f35dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c484aabf31e252e9fdc00aeec6a9b47') in 0.009146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtLacedRoughM_Recipe.asset
-  artifactKey: Guid(19da96547492add4ab971dd7cafe4c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/ShirtLacedRoughM_Recipe.asset using Guid(19da96547492add4ab971dd7cafe4c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65ff8d935e83ab3b3fd30f17632c159') in 0.008025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.162725 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/ShirtButtonUpF_normal.png
-  artifactKey: Guid(16b723bacf168f04a94bdd099d0fdefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/ShirtButtonUpF_normal.png using Guid(16b723bacf168f04a94bdd099d0fdefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc8d1334f400bcd8dc35d7544722589') in 0.021138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/Buttons/ShirtButtonsF_diffuse.png
-  artifactKey: Guid(07528fa24cf252c4ebc333ee6c755547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/Buttons/ShirtButtonsF_diffuse.png using Guid(07528fa24cf252c4ebc333ee6c755547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f29028f7fe6d812bed1ca0f2f18313') in 0.020160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/Buttons/ShirtButtonsF_normal.png
-  artifactKey: Guid(2cef39ff6ecd84345aa1287b777b1cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/Buttons/ShirtButtonsF_normal.png using Guid(2cef39ff6ecd84345aa1287b777b1cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5721e52ed55769b8c73740ee40bfc44c') in 0.021049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.341428 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/ShirtButtonUpM_normal.png
-  artifactKey: Guid(4d06c73de2232564297da02df2f79a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/ShirtButtonUpM_normal.png using Guid(4d06c73de2232564297da02df2f79a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514cea635285f6ccc831da590b945c08') in 0.019411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/Buttons/ShirtButtonsM_diffuse.png
-  artifactKey: Guid(b2fa1ca6802d3aa4b8b54518058b629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/Buttons/ShirtButtonsM_diffuse.png using Guid(b2fa1ca6802d3aa4b8b54518058b629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dc82e39158c8b5b81f2ce4c22bad49') in 0.022126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/Buttons/ShirtButtonsM_metall.png
-  artifactKey: Guid(1289d2831200cbb4da923df40e134f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayButtonUp/Buttons/ShirtButtonsM_metall.png using Guid(1289d2831200cbb4da923df40e134f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dc088a63e4dff6086916ea49ca0866') in 0.021115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.803268 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/Collars/_overviewCollars/CollarsF_normal.png
-  artifactKey: Guid(22bc8a7e74a244843a9a4abf47a32d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/Collars/_overviewCollars/CollarsF_normal.png using Guid(22bc8a7e74a244843a9a4abf47a32d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cf4f35a5574f583fa3ee0a89f66bd5') in 0.021316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.389882 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/Collars/_overviewCollars/CollarsM_normal.png
-  artifactKey: Guid(9cfd9a6d44cbca9498e5849b1b0abed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/Collars/_overviewCollars/CollarsM_normal.png using Guid(9cfd9a6d44cbca9498e5849b1b0abed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966ee95a88cb7d3ff87752e7fad439da') in 0.019389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.042992 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayLaced/ShirtLacedBaseM_normal.png
-  artifactKey: Guid(75401c57da37dc74e9a59a31fe8469db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayLaced/ShirtLacedBaseM_normal.png using Guid(75401c57da37dc74e9a59a31fe8469db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36170e401d44e81de293e4ca4b10b7c') in 0.026005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayLaced/Lacing/ShirtLacedLacingM_diffuse.png
-  artifactKey: Guid(e4a293fc2bee1b74b8eef20bff71047a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayLaced/Lacing/ShirtLacedLacingM_diffuse.png using Guid(e4a293fc2bee1b74b8eef20bff71047a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669e6f8d9763bd51d0838b00a691d98b') in 0.019381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayLaced/Lacing/ShirtLacedLacingM_metall.png
-  artifactKey: Guid(e3b4f102651e39b488da41b72da42120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayLaced/Lacing/ShirtLacedLacingM_metall.png using Guid(e3b4f102651e39b488da41b72da42120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2819ccda4a0c88b7e384b01cda5d77b') in 0.018781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayLaced/Lacing/ShirtLacedLacingM_normal.png
-  artifactKey: Guid(d22f057457cb79442aea642d89b7a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayLaced/Lacing/ShirtLacedLacingM_normal.png using Guid(d22f057457cb79442aea642d89b7a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046a21d6f0a1a481d2695b6de4dbc721') in 0.018800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.386688 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch1/ShirtPatches1M_normal.png
-  artifactKey: Guid(edc723fae0293584ba2e71d571e9c4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch1/ShirtPatches1M_normal.png using Guid(edc723fae0293584ba2e71d571e9c4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530d99c8a7fefc11e4ac930a317d270b') in 0.017921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch5/ShirtPatches5M_diffuse.png
-  artifactKey: Guid(791e80a270d69e14882d20f499f4c34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch5/ShirtPatches5M_diffuse.png using Guid(791e80a270d69e14882d20f499f4c34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b118dec8e13180c216ef70bf912c5b9a') in 0.019294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch6/ShirtPatches6M_diffuse.png
-  artifactKey: Guid(d50aa47949c80c642a45dc1ccb968a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch6/ShirtPatches6M_diffuse.png using Guid(d50aa47949c80c642a45dc1ccb968a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36570483f6f08a921a3f7ed0d59d93e') in 0.015963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch3/ShirtPatches3M_normal.png
-  artifactKey: Guid(7aa3f173a923da0448fd40b1bbaf61d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch3/ShirtPatches3M_normal.png using Guid(7aa3f173a923da0448fd40b1bbaf61d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0529cd3557641c5da64b88c8f7efa049') in 0.020396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch2/ShirtPatches2M_metall.png
-  artifactKey: Guid(631c2ebe70b98ed449ca26a9313522b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch2/ShirtPatches2M_metall.png using Guid(631c2ebe70b98ed449ca26a9313522b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5e92f1146c7ad2bdd88c4705cbdbfb') in 0.017413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch2/ShirtPatches2M_diffuse.png
-  artifactKey: Guid(2e05da4d71d739349bfe69dc9a883e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch2/ShirtPatches2M_diffuse.png using Guid(2e05da4d71d739349bfe69dc9a883e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d1d4f29b7d94ab731cdaad4682356e') in 0.019677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch3/ShirtPatches3M_diffuse.png
-  artifactKey: Guid(4170aaef455fc7b48aafc755ad793fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch3/ShirtPatches3M_diffuse.png using Guid(4170aaef455fc7b48aafc755ad793fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebe171d034ab708161703c84c07487f') in 0.021234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch6/ShirtPatches6M_metall.png
-  artifactKey: Guid(3878772ec75ec4c48aa295b7452ddc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch6/ShirtPatches6M_metall.png using Guid(3878772ec75ec4c48aa295b7452ddc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0673cce5b6d6290d2c701ee7aace9f7a') in 0.018098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch4/ShirtPatches4M_normal.png
-  artifactKey: Guid(a896ea5f011b3cd4bafebc4250f7d1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyGarment/UMAContent/Shirt/BaseSlot/_overlayPatches/Patch4/ShirtPatches4M_normal.png using Guid(a896ea5f011b3cd4bafebc4250f7d1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a9511ea0373eb0f3c6b42eba9bc02f') in 0.018706 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.033711 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.80 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.243 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3244ms)
-		BeginReloadAssembly (452ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (138ms)
-		EndReloadAssembly (2414ms)
-			LoadAssemblies (320ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (828ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (1093ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (237ms)
-				ProcessInitializeOnLoadAttributes (763ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 10.57 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 6015 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (155.9 KB). Loaded Objects now: 6604.
-Memory consumption went from 237.0 MB to 236.8 MB.
-Total: 4.406300 ms (FindLiveObjects: 0.485400 ms CreateObjectMapping: 0.304800 ms MarkObjects: 3.397200 ms  DeleteObjects: 0.217100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014143 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.14 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.408 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1409ms)
-		BeginReloadAssembly (166ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1119ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (364ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (524ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (227ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (603ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.77 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 6015 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (156.1 KB). Loaded Objects now: 6608.
-Memory consumption went from 237.0 MB to 236.8 MB.
-Total: 3.878400 ms (FindLiveObjects: 0.456400 ms CreateObjectMapping: 0.302100 ms MarkObjects: 2.956000 ms  DeleteObjects: 0.162800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012475 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.60 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.339 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1340ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1075ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (459ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (307ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 10.28 ms, found 9 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (187.7 KB). Loaded Objects now: 6574.
+Memory consumption went from 230.9 MB to 230.7 MB.
+Total: 5.916300 ms (FindLiveObjects: 0.826600 ms CreateObjectMapping: 0.432100 ms MarkObjects: 4.333800 ms  DeleteObjects: 0.322400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010559 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1654ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1290ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.24 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 6014 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (155.9 KB). Loaded Objects now: 6578.
+Memory consumption went from 219.7 MB to 219.6 MB.
+Total: 8.173600 ms (FindLiveObjects: 0.816800 ms CreateObjectMapping: 0.750200 ms MarkObjects: 6.286400 ms  DeleteObjects: 0.318600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013175 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.50 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.668 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1669ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1301ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (562ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (359ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.98 ms, found 9 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 6014 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (148.2 KB). Loaded Objects now: 6611.
-Memory consumption went from 237.0 MB to 236.8 MB.
-Total: 3.591700 ms (FindLiveObjects: 0.400100 ms CreateObjectMapping: 0.244500 ms MarkObjects: 2.486200 ms  DeleteObjects: 0.459500 ms)
+Unloading 54 unused Assets / (155.9 KB). Loaded Objects now: 6582.
+Memory consumption went from 219.8 MB to 219.6 MB.
+Total: 5.392600 ms (FindLiveObjects: 0.636900 ms CreateObjectMapping: 0.386400 ms MarkObjects: 4.141200 ms  DeleteObjects: 0.226300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016733 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Uni\Light & Dark Sides of XR\Repository\light-and-dark-sides-gruppe-1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.609 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1610ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1270ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (443ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.22 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6014 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (156.0 KB). Loaded Objects now: 6586.
+Memory consumption went from 219.8 MB to 219.6 MB.
+Total: 5.890100 ms (FindLiveObjects: 0.648000 ms CreateObjectMapping: 0.519800 ms MarkObjects: 4.368800 ms  DeleteObjects: 0.351400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
