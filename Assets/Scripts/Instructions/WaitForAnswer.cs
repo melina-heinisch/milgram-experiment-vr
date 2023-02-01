@@ -12,7 +12,6 @@ public class WaitForAnswer : MonoBehaviour, IInstruction
     public bool isDone()
     {
         //can not be skipped.
-        Debug.LogWarning("not implemented");
         return done;
     }
 

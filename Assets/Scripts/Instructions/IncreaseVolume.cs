@@ -8,6 +8,10 @@ public class IncreaseVolume : MonoBehaviour, IInstruction
     private Schieberegler schieberegler;
     private int previousVolume;
     private bool answerIsCorrect;
+    private int maxValue = 10;
+    private float audioVolume;
+    private AudioClip clipBitteMachenSieWeiter;
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -16,13 +20,20 @@ public class IncreaseVolume : MonoBehaviour, IInstruction
 
     public bool isDone()
     {
-        if (answerIsCorrect || schieberegler.value == 10)
+        if (answerIsCorrect)
         {
             return true;
         }
         else if (Input.GetKeyDown(KeyCode.Space) || schieberegler.value > previousVolume)
         {
-            Debug.LogWarning("not implemented");
+            if (increasedToMax())
+            {
+                audioSource.PlayOneShot(clipBitteMachenSieWeiter, audioVolume);
+            }
+            return true;
+        }
+        else if (schieberegler.value == maxValue)
+        {
             return true;
         }
         else
@@ -31,11 +42,19 @@ public class IncreaseVolume : MonoBehaviour, IInstruction
         }
     }
 
+    private bool increasedToMax()
+    {
+        return (schieberegler.value > previousVolume && schieberegler.value == maxValue);
+    }
+
     public void OnStartOfInstruction(ReferenceAssociationCanvas canvasReferences, ContentAssociationspaar assoziation)
     {
         //set previous value
         previousVolume = schieberegler.value;
         answerIsCorrect = assoziation.AnswerIsCorrect();
+        audioVolume = canvasReferences.volume;
+        audioSource = canvasReferences.audioSource;
+        clipBitteMachenSieWeiter = canvasReferences.audioBitteMachenSieWeiter;
 
         if (assoziation.chosenOption == OptionEnum.none) // Zeit abgelaufen
         {

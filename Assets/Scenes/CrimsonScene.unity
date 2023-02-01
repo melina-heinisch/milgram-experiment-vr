@@ -12617,6 +12617,7 @@ MonoBehaviour:
   teachterMonitorReferences:
     volume: 4
     audioSource: {fileID: 584285974}
+    audioBitteMachenSieWeiter: {fileID: 8300000, guid: eb9df5205ecca424887189ed174bc9f9, type: 3}
     anweisung: {fileID: 354027563}
     assoziationspaar1: {fileID: 254636192}
     assoziationspaar2: {fileID: 1473918658}
