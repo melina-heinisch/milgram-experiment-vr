@@ -8,6 +8,7 @@ public class ReferenceAssociationCanvas
 {
     public float volume;
     public AudioSource audioSource;
+    public AudioClip audioBitteMachenSieWeiter;
     public TextMeshProUGUI anweisung;
     public TextMeshProUGUI assoziationspaar1;
     public TextMeshProUGUI assoziationspaar2;
