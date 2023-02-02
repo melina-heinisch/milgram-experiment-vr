@@ -25,12 +25,11 @@ public class ContentAssociationspaar
     public string option4;
     public OptionEnum chosenOption;
     public OptionEnum correctOption;
-    //public int timeToAnswerInSeconds; //this is replaced by choosenOption.none and random number to wait
     public AudioClip scream;
 
     public bool AnswerIsCorrect()
     {
-        if (chosenOption == OptionEnum.none) // || timeToAnswerInSeconds > 10
+        if (chosenOption == OptionEnum.none) 
         {
             return false;
         }

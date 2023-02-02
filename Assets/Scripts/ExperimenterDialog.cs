@@ -14,12 +14,11 @@ public class ExperimenterDialog : MonoBehaviour
     [SerializeField] private AudioClip dangerAnswerAudio;
     [SerializeField] private AudioClip weigerungSchueler;
     [SerializeField] private AudioClip noAnswerAudio;
-    [SerializeField] private List<AudioClip> exitExperimentAnswers; // will be assigned in Inspector. This has to be replaced by audio files.
+    [SerializeField] private List<AudioClip> exitExperimentAnswers; 
     [SerializeField] private List<string> exitExperimentButtonTexts;
 
     private int incentivesDone = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (exitExperimentAnswers.Count != (exitExperimentButtonTexts.Count - 1))
@@ -68,8 +67,6 @@ public class ExperimenterDialog : MonoBehaviour
     public void TellStudentDidntAnswerAnswer()
     {
         audioSource.PlayOneShot(noAnswerAudio, volume);
-        //Debug.Log("Regelm‰ﬂige Anweisung, keine Antwort als falsch zu werten und dementsprechend zu bestrafen, Toleranzzeit von 5 - 10 Sekunden");
-        //Debug.LogWarning("Audio muss noch eingebunden werden.");
         //incentives will not increase. See https://gitlab2.informatik.uni-wuerzburg.de/hci/teaching/courses/special-topics-xr/student-materials/2022-winter/light-and-dark-sides-gruppe-1/-/wikis/Methodik%20des%20originalen%20Milgram%20Experiments#reaktionen-bei-nachfragen-durch-versuchsperson
     }
 }

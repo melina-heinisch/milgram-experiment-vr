@@ -9,37 +9,31 @@ public class PressButtonAnimation : MonoBehaviour
     public float maxY;
     public float minY;
 
-    //private bool touchedByHand;
-   
-
-    // Start is called before the first frame update
     void Start()
     {
         gameObject.GetComponent<MeshRenderer>().material.color = Color.blue;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Debug.Log(transform.position);
         if (gameObject.transform.position.y < minY)
         {
             Vector3 vector3 = transform.position;
             vector3.y = minY;
             transform.position = vector3;
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
         }
 
         if (transform.position.y >= maxY)
         {
-           // buttonIsPressed = false;
             Vector3 vector3 = transform.position;
             vector3.y = maxY;
             transform.position = vector3;
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
             gameObject.GetComponent<MeshRenderer>().material.color = Color.blue;
         }
         else
         {
-            //buttonIsPressed = true;
             gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
         }
 
@@ -49,9 +43,6 @@ public class PressButtonAnimation : MonoBehaviour
             vector3.y += speed * Time.deltaTime;
             transform.position = vector3;
         }
-        //if (!touchedByHand)
-        //{
-        //}
     }
 
 
@@ -59,17 +50,10 @@ public class PressButtonAnimation : MonoBehaviour
     private void OnCollisionStay(Collision collisionInfo)
     {
         buttonIsPressed = true;
-        //if (collisionInfo.gameObject.name.Contains("Hand"))
-        //{
-        //    touchedByHand = true;
-        //}
     }
 
     private void OnCollisionExit()
     {
         buttonIsPressed = false;
-        //touchedByHand = false;
-        //Debug.Log("Not touched anymore");
-        //gameObject.GetComponent<MeshRenderer>().material.color = Color.blue;
     }
 }

@@ -34,7 +34,6 @@ public class InitializeAssoziationspaar : MonoBehaviour, IInstruction
 
     public void OnStartOfInstruction(ReferenceAssociationCanvas canvasReferences, ContentAssociationspaar assoziation)
     {
-        Debug.Log("Start of instruction Init.");
         //set instruction
         canvasReferences.anweisung.text = "Halten Sie den Knopf vor dem Mikrofon gedrückt und lesen Sie die Wortpaare vor.";
 

@@ -24,10 +24,7 @@ public class Schieberegler : MonoBehaviour
     private Dictionary<int, GameObject> lights = new Dictionary<int, GameObject>();
 
     public int value;
-
     private float lastSliderZ;
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -54,13 +51,10 @@ public class Schieberegler : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        //Debug.Log($"Trigger with {other}");
         if (!other.name.Contains("Hand"))
         {
-            //Debug.Log($"{other}, {other.transform.position}");
             lastSliderZ = other.gameObject.transform.position.z;
 
-            //get value from name
             string string_value = Regex.Replace(other.name, "[^0-9.]", "");
             try
             {
@@ -82,21 +76,17 @@ public class Schieberegler : MonoBehaviour
 
     private void DontMoveBeyondMax()
     {
-        //Debug.Log(transform.position);
         if (gameObject.transform.position.z < minZ)
         {
             Vector3 vector3 = transform.position;
             vector3.z = minZ;
             transform.position = vector3;
-            //Debug.Log($"Slider ist zu weit rechts! New Position: {vector3}");
         }
         else if (transform.position.z > maxZ)
         {
             Vector3 vector3 = transform.position;
             vector3.z = maxZ;
             transform.position = vector3;
-
-            //Debug.Log($"Slider ist zu weit links! New Position: {vector3}");
         }
     }
 
@@ -108,12 +98,10 @@ public class Schieberegler : MonoBehaviour
 
     private void ReleaseSlider()
     {
-        //make new position
         Vector3 vector3 = transform.position;
         vector3.z = lastSliderZ;
         transform.position = vector3;
         GetComponent<Rigidbody>().velocity = Vector3.zero;
-        //Debug.Log($"Slider released. new position {vector3}");
     }
 
 }

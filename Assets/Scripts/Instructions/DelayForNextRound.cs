@@ -11,7 +11,6 @@ public class DelayForNextRound : MonoBehaviour, IInstruction
     public bool isDone()
     {
         //can not be skipped.
-        Debug.LogWarning("not implemented");
         return done;
     }
 
@@ -21,7 +20,6 @@ public class DelayForNextRound : MonoBehaviour, IInstruction
         canvas = canvasReferences;
         _association = assoziation;
         StartCoroutine(InstructionWithCountDown());
-        //canvasReferences.MakeAssoziationspaareAndAnswersNonVisible();
     }
 
     private IEnumerator InstructionWithCountDown()

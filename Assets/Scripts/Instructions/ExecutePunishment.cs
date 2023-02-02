@@ -25,8 +25,10 @@ public class ExecutePunishment : MonoBehaviour, IInstruction
         // is punishment done?
         if (Input.GetKeyDown(KeyCode.Space) || punishButton.buttonIsPressed)
         {
-            audioSource.PlayOneShot(scream, volume);
-            //Debug.LogWarning("Execute punishment. Sound not implemented");
+            if (scream != null)
+            {
+                audioSource.PlayOneShot(scream, volume);
+            }
             return true;
         }
         else
