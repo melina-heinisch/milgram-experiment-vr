@@ -32,7 +32,7 @@ public class Schieberegler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lights.Add(1,light_40);
+        lights.Add(1, light_40);
         lights.Add(2, light_60);
         lights.Add(3, light_80);
         lights.Add(4, light_100);
@@ -43,26 +43,13 @@ public class Schieberegler : MonoBehaviour
         lights.Add(9, light_200);
         lights.Add(10, light_220);
 
-
+        lastSliderZ = transform.position.z;
     }
 
     // Update is called once per frame
     private void Update()
     {
-
-        //Debug.Log(transform.position);
-        if (gameObject.transform.position.z < minZ)
-        {
-            Vector3 vector3 = transform.position;
-            vector3.z = minZ;
-            transform.position = vector3;
-        }
-        else if (transform.position.z > maxZ)
-        {
-            Vector3 vector3 = transform.position;
-            vector3.z = maxZ;
-            transform.position = vector3;
-        }
+        DontMoveBeyondMax();
     }
 
     private void OnTriggerStay(Collider other)
@@ -77,8 +64,8 @@ public class Schieberegler : MonoBehaviour
             string string_value = Regex.Replace(other.name, "[^0-9.]", "");
             try
             {
-               value = int.Parse(string_value);
-                
+                value = int.Parse(string_value);
+
                 GameObject light;
 
                 if (lights.TryGetValue(value, out light) && !light.activeSelf)
@@ -90,6 +77,26 @@ public class Schieberegler : MonoBehaviour
             {
                 //do nothing
             }
+        }
+    }
+
+    private void DontMoveBeyondMax()
+    {
+        //Debug.Log(transform.position);
+        if (gameObject.transform.position.z < minZ)
+        {
+            Vector3 vector3 = transform.position;
+            vector3.z = minZ;
+            transform.position = vector3;
+            //Debug.Log($"Slider ist zu weit rechts! New Position: {vector3}");
+        }
+        else if (transform.position.z > maxZ)
+        {
+            Vector3 vector3 = transform.position;
+            vector3.z = maxZ;
+            transform.position = vector3;
+
+            //Debug.Log($"Slider ist zu weit links! New Position: {vector3}");
         }
     }
 
@@ -105,9 +112,8 @@ public class Schieberegler : MonoBehaviour
         Vector3 vector3 = transform.position;
         vector3.z = lastSliderZ;
         transform.position = vector3;
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
         //Debug.Log($"Slider released. new position {vector3}");
-
-
     }
 
 }

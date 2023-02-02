@@ -15010,7 +15010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828b678e5f93e0b4a9ea240fe8431705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minZ: 0.95
+  minZ: 0.94
   maxZ: 1.44
   light_40: {fileID: 1499663166}
   light_60: {fileID: 32378799}
