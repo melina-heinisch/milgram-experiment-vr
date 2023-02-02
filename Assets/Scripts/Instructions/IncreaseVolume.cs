@@ -70,11 +70,11 @@ public class IncreaseVolume : MonoBehaviour, IInstruction
             canvasReferences.ColorAnswer((int)assoziation.chosenOption, Color.red);
             canvasReferences.ColorAnswer((int)assoziation.correctOption, Color.green);
         }
-        //else // Antwort richtig
-        //{
-        //    canvasReferences.anweisung.text = "Die Antwort ist korrekt.\nBitte klicken Sie XXX um fortzufahren.";
-        //    canvasReferences.ColorAnswer((int)assoziation.correctOption, Color.green);
-        //}
+        else // Antwort richtig
+        {
+            //canvasReferences.anweisung.text = "Die Antwort ist korrekt.\nBitte klicken Sie XXX um fortzufahren.";
+            canvasReferences.ColorAnswer((int)assoziation.correctOption, Color.green);
+        }
     }
 
 }

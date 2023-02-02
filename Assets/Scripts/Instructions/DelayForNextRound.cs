@@ -17,12 +17,11 @@ public class DelayForNextRound : MonoBehaviour, IInstruction
 
     public void OnStartOfInstruction(ReferenceAssociationCanvas canvasReferences, ContentAssociationspaar assoziation)
     {
-        //new instruction
         done = false;
         canvas = canvasReferences;
         _association = assoziation;
         StartCoroutine(InstructionWithCountDown());
-        canvasReferences.MakeAssoziationspaareAndAnswersNonVisible();
+        //canvasReferences.MakeAssoziationspaareAndAnswersNonVisible();
     }
 
     private IEnumerator InstructionWithCountDown()
