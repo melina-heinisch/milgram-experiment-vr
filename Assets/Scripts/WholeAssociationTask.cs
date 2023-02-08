@@ -57,7 +57,12 @@ public class WholeAssociationTask : MonoBehaviour
                 if (associationIndex == textsForAssociationCanvas.Count)
                 {
                     associationCanvas.SetActive(false);
-                    debriefingText.text = "Debriefing 1 \n \n Dieses Experiment hatte den Zweck zu testen, wie Gehorsam man sich gegenüber Autoritätspersonen verhält. Während dem Experiment wurden keine Personen verletzt. Es wurden keine gefählichen Töne abgespielt und ihr virtueller Gegenüber war nur simuliert. Dass Sie auch trotz Leiden des Schülers weiter gemacht haben, ist eine normale Raktion und kann bei vielen Teilnehmern beobachtet werden. Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an die Versuchsleiter.";
+                    debriefingText.text = "Debriefing 1/3 \n \n " +
+                                          "Dieses Experiment hatte den Zweck zu testen, wie gehorsam man sich gegenÃ¼ber AutoritÃ¤tspersonen verhÃ¤lt. " +
+                                          "WÃ¤hrend dem Experiment wurden keine Personen verletzt. " +
+                                          "Es wurden keine gefÃ¤hlichen TÃ¶ne abgespielt und ihr virtueller GegenÃ¼ber war nur simuliert. " +
+                                          "Dass Sie auch trotz Leiden des SchÃ¼lers weiter gemacht haben, ist eine normale Reaktion und kann bei vielen Teilnehmenden beobachtet werden. " +
+                                          "Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an die Versuchsleiter.";
                     debriefingCanvas.SetActive(true);
                 }
             }

@@ -4814,7 +4814,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &400524822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4910,7 +4910,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8927d44ebd8ab284e86e72dcdba89d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debriefingText: {fileID: 0}
+  debriefingText: {fileID: 1524526552}
+  vlInteraction: {fileID: 232474374}
 --- !u!1 &401212431
 GameObject:
   m_ObjectHideFlags: 0
@@ -7522,7 +7523,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -7570,7 +7571,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584285973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.805, y: 1.48, z: 5.483}
+  m_LocalPosition: {x: 2.269, y: 1.44, z: 5.655}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12545,8 +12546,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185870515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.27078164, y: 0.295509, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.27078164, y: 0.2831715, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 400524825}
@@ -12554,7 +12555,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.1999512, y: 8.400024}
+  m_AnchoredPosition: {x: 2.1999512, y: 13}
   m_SizeDelta: {x: -7.5, y: -60.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1185870517
@@ -13337,11 +13338,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vlInteraction: {fileID: 232474374}
-  associationCanvas: {fileID: 0}
+  associationCanvas: {fileID: 1224087296}
   schieberegler: {fileID: 1432648012}
   roleCanvas: {fileID: 1921531119}
   studentImage: {fileID: 1163475497}
-  volume: 4
+  volume: 5
   audiosource: {fileID: 1916221900}
   intro: {fileID: 8300000, guid: 78a236ee19e54784083e714214b2950c, type: 3}
   transition: {fileID: 8300000, guid: b1880a32a72887b4cb22d5e57f9797eb, type: 3}
@@ -16199,7 +16200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Debriefing 1\n\nDieses Experiment hatte den Zweck zu testen, wie Gehorsam
+  m_text: "Debriefing 1/3\n\nDieses Experiment hatte den Zweck zu testen, wie Gehorsam
     man sich gegen\xFCber Autorit\xE4tspersonen verh\xE4lt. W\xE4hrend dem Experiment
     wurden keine Personen verletzt. Es wurden keine gef\xE4hlichen T\xF6ne abgespielt
     und ihr virtueller Gegen\xFCber war nur simuliert. Dass Sie auch trotz Leiden
@@ -19329,7 +19330,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0

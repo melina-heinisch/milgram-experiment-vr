@@ -33,8 +33,11 @@ public class Intro : MonoBehaviour
     {
         if (Input.GetKeyDown("space") && !intro_played)
         {
-            intro_played = true;
             StartCoroutine(playIntro());
+        } 
+        else if (Input.GetKeyDown("s") && !intro_played)
+        {
+            IsDone();
         }
 
     }
@@ -56,6 +59,7 @@ public class Intro : MonoBehaviour
 
     void IsDone()
     {
+        intro_played = true;
         vlInteraction.SetActive(true);
         associationCanvas.SetActive(true);
         script_regler.enabled = true;
