@@ -6,7 +6,7 @@ using UnityEngine;
 public class Intro : MonoBehaviour
 {
     [SerializeField] private GameObject vlInteraction;
-    [SerializeField] private GameObject monitorCanvas;
+    [SerializeField] private GameObject associationCanvas;
     [SerializeField] private GameObject schieberegler;
     [SerializeField] private GameObject roleCanvas;
     [SerializeField] private GameObject studentImage;
@@ -25,7 +25,7 @@ public class Intro : MonoBehaviour
     void Start()
     {
         script_regler = schieberegler.GetComponent<Schieberegler>();
-        script_association = monitorCanvas.GetComponent<WholeAssociationTask>();
+        script_association = associationCanvas.GetComponent<WholeAssociationTask>();
     }
 
     // Update is called once per frame
@@ -57,7 +57,7 @@ public class Intro : MonoBehaviour
     void IsDone()
     {
         vlInteraction.SetActive(true);
-        monitorCanvas.SetActive(true);
+        associationCanvas.SetActive(true);
         script_regler.enabled = true;
         script_association.enabled = true;
     }

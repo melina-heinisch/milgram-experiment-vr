@@ -2938,6 +2938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volume: 6
   debriefing: {fileID: 400524821}
+  associationCanvas: {fileID: 1224087296}
   debriefingText: {fileID: 1524526552}
   buttonText: {fileID: 158526106}
   audioSource: {fileID: 1916221900}
@@ -4806,6 +4807,7 @@ GameObject:
   - component: {fileID: 400524824}
   - component: {fileID: 400524823}
   - component: {fileID: 400524822}
+  - component: {fileID: 400524826}
   m_Layer: 5
   m_Name: Debriefing Canvas
   m_TagString: Untagged
@@ -4863,7 +4865,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 963194227}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -4881,21 +4883,34 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400524821}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.7756}
-  m_LocalScale: {x: 0.0010000005, y: 0.001, z: 0.08957203}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -0.721116}
+  m_LocalScale: {x: 0.00010000007, y: 0.002447666, z: 0.008957083}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1185870516}
   - {fileID: 1524526551}
-  m_Father: {fileID: 963194228}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 2140390805}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.119, y: -0.083}
+  m_AnchoredPosition: {x: -0.00021100044, y: -0.0012077093}
   m_SizeDelta: {x: 2107, y: 1185}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &400524826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400524821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8927d44ebd8ab284e86e72dcdba89d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debriefingText: {fileID: 0}
 --- !u!1 &401212431
 GameObject:
   m_ObjectHideFlags: 0
@@ -10727,8 +10742,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 400524825}
+  m_Children: []
   m_Father: {fileID: 529828491}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 9.261, y: 91.042, z: 0.227}
@@ -12532,7 +12546,7 @@ RectTransform:
   m_GameObject: {fileID: 1185870515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.27078164, y: 0.295509, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 400524825}
@@ -12540,8 +12554,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2.1999512, y: 8.400024}
+  m_SizeDelta: {x: -7.5, y: -60.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1185870517
 MonoBehaviour:
@@ -12985,6 +12999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debriefingCanvas: {fileID: 400524821}
+  associationCanvas: {fileID: 1224087296}
   debriefingText: {fileID: 1524526552}
   teachterMonitorReferences:
     volume: 4
@@ -13322,7 +13337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vlInteraction: {fileID: 232474374}
-  monitorCanvas: {fileID: 1224087296}
+  associationCanvas: {fileID: 0}
   schieberegler: {fileID: 1432648012}
   roleCanvas: {fileID: 1921531119}
   studentImage: {fileID: 1163475497}
@@ -16161,8 +16176,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 99}
-  m_SizeDelta: {x: 700, y: 250}
+  m_AnchoredPosition: {x: 0, y: 22}
+  m_SizeDelta: {x: 525, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1524526552
 MonoBehaviour:
@@ -16184,13 +16199,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dieses Experiment hatte den Zweck zu testen, wie Gehorsam man sich gegen\xFCber
-    Autorit\xE4tspersonen verh\xE4lt. W\xE4hrend dem Experiment wurden keine Personen
-    verletzt. Es wurden keine gef\xE4hlichen T\xF6ne abgespielt und ihr virtueller
-    Gegen\xFCber war nur simuliert. Dass Sie auch trotz Leiden des Sch\xFClers weiter
-    gemacht haben, ist eine normale Raktion und kann bei vielen Teilnehmern beobachtet
-    werden. Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an
-    die Versuchsleiter."
+  m_text: "Debriefing 1\n\nDieses Experiment hatte den Zweck zu testen, wie Gehorsam
+    man sich gegen\xFCber Autorit\xE4tspersonen verh\xE4lt. W\xE4hrend dem Experiment
+    wurden keine Personen verletzt. Es wurden keine gef\xE4hlichen T\xF6ne abgespielt
+    und ihr virtueller Gegen\xFCber war nur simuliert. Dass Sie auch trotz Leiden
+    des Sch\xFClers weiter gemacht haben, ist eine normale Raktion und kann bei vielen
+    Teilnehmern beobachtet werden. Bei weiteren Fragen wenden Sie sich im Anschluss
+    an das Experiment an die Versuchsleiter."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16217,8 +16232,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -19543,6 +19558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debriefingCanvas: {fileID: 400524821}
+  associationCanvas: {fileID: 0}
   debriefingText: {fileID: 1524526552}
   teachterMonitorReferences:
     volume: 4

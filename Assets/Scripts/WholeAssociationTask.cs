@@ -7,6 +7,7 @@ using TMPro;
 public class WholeAssociationTask : MonoBehaviour
 {
     [SerializeField] private GameObject debriefingCanvas;
+    [SerializeField] private GameObject associationCanvas;
     [SerializeField] private TextMeshProUGUI debriefingText;
     [SerializeField] private ReferenceAssociationCanvas teachterMonitorReferences;
 
@@ -55,7 +56,8 @@ public class WholeAssociationTask : MonoBehaviour
                 //debriefing
                 if (associationIndex == textsForAssociationCanvas.Count)
                 {
-                    debriefingText.text = "Dieses Experiment hatte den Zweck zu testen, wie Gehorsam man sich gegenüber Autoritätspersonen verhält. Während dem Experiment wurden keine Personen verletzt. Es wurden keine gefählichen Töne abgespielt und ihr virtueller Gegenüber war nur simuliert. Dass Sie auch trotz Leiden des Schülers weiter gemacht haben, ist eine normale Raktion und kann bei vielen Teilnehmern beobachtet werden. Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an die Versuchsleiter.";
+                    associationCanvas.SetActive(false);
+                    debriefingText.text = "Debriefing 1 \n \n Dieses Experiment hatte den Zweck zu testen, wie Gehorsam man sich gegenüber Autoritätspersonen verhält. Während dem Experiment wurden keine Personen verletzt. Es wurden keine gefählichen Töne abgespielt und ihr virtueller Gegenüber war nur simuliert. Dass Sie auch trotz Leiden des Schülers weiter gemacht haben, ist eine normale Raktion und kann bei vielen Teilnehmern beobachtet werden. Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an die Versuchsleiter.";
                     debriefingCanvas.SetActive(true);
                 }
             }
