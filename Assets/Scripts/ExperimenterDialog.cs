@@ -57,13 +57,14 @@ public class ExperimenterDialog : MonoBehaviour
 
     private void Debriefing()
     {
+        associationCanvas.GetComponent<WholeAssociationTask>().WriteLogAtEndOfExperiment();
+        Debug.Log($"Experiment finished. Experiment was terminated by the user before all associations were learned.");
         associationCanvas.SetActive(false);
         debriefingText.text = "Debriefing 1/3 \n \n Dieses Experiment hatte den Zweck zu testen, wie gehorsam man sich gegenüber Autoritätspersonen verhält. " +
                               "Während dem Experiment wurden keine Personen verletzt. Es wurden keine gefählichen Töne abgespielt und ihr virtueller Gegenüber war nur simuliert. " +
                               "Ihr Abbruch zeugt davon, dass sie Mitgefühl für den Schüler gezeigt haben, das ist sehr lobenswert. " +
                               "Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an die Versuchsleiter.";
         debriefing.SetActive(true);
-        Debug.Log($"Experiment finished. Experiment was terminated by the user before all associations were learned.");
     }
 
     public void TellDangerAnswer()
@@ -92,7 +93,7 @@ public class ExperimenterDialog : MonoBehaviour
         WriteLogAtEndOfExperiment();
     }
 
-    private void WriteLogAtEndOfExperiment()
+    public void WriteLogAtEndOfExperiment()
     {
         Debug.Log($"The teacher interacted {timesDangerQuestionWasAsked + timesStudentWantsToExitQuestionWasAsked + timesStudentDidntAnswerQuestionWasAsked + timesTeacherWantedToExit} times with the experimenter.");
         Debug.Log($"The teacher asked in sum {timesTeacherWantedToExit} times to exit.");

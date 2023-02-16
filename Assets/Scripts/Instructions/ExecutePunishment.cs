@@ -41,7 +41,7 @@ public class ExecutePunishment : MonoBehaviour, IInstruction
     {
         volume = canvasReferences.volume;
         scream = assoziation.scream;
-        audioSource = canvasReferences.audioSource;
+        audioSource = canvasReferences.audioSourceSpeaker;
         answerIsCorrect = assoziation.AnswerIsCorrect();
         if (!answerIsCorrect)
         {

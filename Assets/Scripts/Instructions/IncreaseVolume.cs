@@ -53,7 +53,7 @@ public class IncreaseVolume : MonoBehaviour, IInstruction
         previousVolume = schieberegler.value;
         answerIsCorrect = assoziation.AnswerIsCorrect();
         audioVolume = canvasReferences.volume;
-        audioSource = canvasReferences.audioSource;
+        audioSource = canvasReferences.audioSourceVL;
         clipBitteMachenSieWeiter = canvasReferences.audioBitteMachenSieWeiter;
 
         if (assoziation.chosenOption == OptionEnum.none) // Zeit abgelaufen

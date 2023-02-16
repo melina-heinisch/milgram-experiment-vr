@@ -83,7 +83,7 @@ public class WholeAssociationTask : MonoBehaviour
         WriteLogAtEndOfExperiment();
     }
 
-    private void WriteLogAtEndOfExperiment()
+    public void WriteLogAtEndOfExperiment()
     {
         Debug.Log($"{associationIndex} of {textsForAssociationCanvas.Count} punishments were executed.");
     }

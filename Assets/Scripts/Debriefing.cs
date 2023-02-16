@@ -21,6 +21,11 @@ public class Debriefing : MonoBehaviour
 
     public void OnEnable()
     {
+        //get experimenter dialog script and rum method FinishExperiment
+        vlInteraction.GetComponent<ExperimenterDialog>().WriteLogAtEndOfExperiment();
+        //get association Task Script and run method Finish Experiment
+
+
         //Debug.Log("In method");
         vlInteraction.SetActive(false);
         StartCoroutine(showDebriefing());

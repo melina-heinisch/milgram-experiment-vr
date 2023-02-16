@@ -1360,7 +1360,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f03beaacdeb43f2448a61daaba017dbf, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f03beaacdeb43f2448a61daaba017dbf, type: 3}
       propertyPath: m_LocalScale.x
@@ -11512,7 +11512,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041099974}
   m_LocalRotation: {x: 0, y: 0.77747536, z: 0, w: 0.62891346}
-  m_LocalPosition: {x: 0, y: 0.17, z: 1.1}
+  m_LocalPosition: {x: 0.459, y: 0.17, z: 1.002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13179,7 +13179,8 @@ MonoBehaviour:
   debriefingText: {fileID: 1524526552}
   teachterMonitorReferences:
     volume: 4
-    audioSource: {fileID: 584285974}
+    audioSourceSpeaker: {fileID: 584285974}
+    audioSourceVL: {fileID: 1916221900}
     audioBitteMachenSieWeiter: {fileID: 8300000, guid: eb9df5205ecca424887189ed174bc9f9, type: 3}
     anweisung: {fileID: 354027563}
     assoziationspaar1: {fileID: 254636192}
@@ -13517,7 +13518,7 @@ MonoBehaviour:
   schieberegler: {fileID: 1432648012}
   roleCanvas: {fileID: 1921531119}
   studentImage: {fileID: 1163475497}
-  volume: 5
+  volume: 20
   audiosource: {fileID: 1916221900}
   intro: {fileID: 8300000, guid: 78a236ee19e54784083e714214b2950c, type: 3}
   transition: {fileID: 8300000, guid: b1880a32a72887b4cb22d5e57f9797eb, type: 3}
@@ -19288,8 +19289,8 @@ Transform:
   - {fileID: 328991191}
   - {fileID: 232474378}
   - {fileID: 1916221899}
-  - {fileID: 2097051394}
   - {fileID: 173710276}
+  - {fileID: 2097051394}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19817,7 +19818,8 @@ MonoBehaviour:
   debriefingText: {fileID: 1524526552}
   teachterMonitorReferences:
     volume: 4
-    audioSource: {fileID: 584285974}
+    audioSourceSpeaker: {fileID: 0}
+    audioSourceVL: {fileID: 0}
     audioBitteMachenSieWeiter: {fileID: 8300000, guid: eb9df5205ecca424887189ed174bc9f9, type: 3}
     anweisung: {fileID: 1471240435}
     assoziationspaar1: {fileID: 0}
@@ -21974,7 +21976,7 @@ Transform:
   m_Children:
   - {fileID: 1076788934}
   m_Father: {fileID: 1873757971}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2097051395
 Animator:

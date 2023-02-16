@@ -7,7 +7,8 @@ using TMPro;
 public class ReferenceAssociationCanvas
 {
     public float volume;
-    public AudioSource audioSource;
+    public AudioSource audioSourceSpeaker;
+    public AudioSource audioSourceVL;
     public AudioClip audioBitteMachenSieWeiter;
     public TextMeshProUGUI anweisung;
     public TextMeshProUGUI assoziationspaar1;
