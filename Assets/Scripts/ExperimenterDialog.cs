@@ -20,6 +20,13 @@ public class ExperimenterDialog : MonoBehaviour
 
     private int incentivesDone = 0;
 
+    //counter for summary at the end
+    private int timesDangerQuestionWasAsked;
+    private int timesStudentWantsToExitQuestionWasAsked;
+    private int timesStudentDidntAnswerQuestionWasAsked;
+    private int timesTeacherWantedToExit;
+
+
     void Start()
     {
         if (exitExperimentAnswers.Count != (exitExperimentButtonTexts.Count - 1))
@@ -32,6 +39,7 @@ public class ExperimenterDialog : MonoBehaviour
 
     public void TellExitExperimentAnswer()
     {
+        timesTeacherWantedToExit++;
         if (incentivesDone == exitExperimentAnswers.Count)
         {
             Debriefing();
@@ -55,24 +63,41 @@ public class ExperimenterDialog : MonoBehaviour
                               "Ihr Abbruch zeugt davon, dass sie Mitgefühl für den Schüler gezeigt haben, das ist sehr lobenswert. " +
                               "Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an die Versuchsleiter.";
         debriefing.SetActive(true);
-        
+        Debug.Log($"Experiment finished. Experiment was terminated by the user before all associations were learned.");
     }
 
     public void TellDangerAnswer()
     {
         audioSource.PlayOneShot(dangerAnswerAudio, volume);
         incentivesDone = 1;
+        timesDangerQuestionWasAsked++;
     }
 
     public void TellStudentWantsToExitAnswer()
     {
         audioSource.PlayOneShot(weigerungSchueler, volume);
         incentivesDone = 1;
+        timesStudentWantsToExitQuestionWasAsked++;
     }
 
     public void TellStudentDidntAnswerAnswer()
     {
         audioSource.PlayOneShot(noAnswerAudio, volume);
+        timesStudentDidntAnswerQuestionWasAsked++;
         //incentives will not increase. See https://gitlab2.informatik.uni-wuerzburg.de/hci/teaching/courses/special-topics-xr/student-materials/2022-winter/light-and-dark-sides-gruppe-1/-/wikis/Methodik%20des%20originalen%20Milgram%20Experiments#reaktionen-bei-nachfragen-durch-versuchsperson
+    }
+
+    void OnApplicationQuit()
+    {
+        WriteLogAtEndOfExperiment();
+    }
+
+    private void WriteLogAtEndOfExperiment()
+    {
+        Debug.Log($"The teacher interacted {timesDangerQuestionWasAsked + timesStudentWantsToExitQuestionWasAsked + timesStudentDidntAnswerQuestionWasAsked + timesTeacherWantedToExit} times with the experimenter.");
+        Debug.Log($"The teacher asked in sum {timesTeacherWantedToExit} times to exit.");
+        Debug.Log($"The teacher asked {timesDangerQuestionWasAsked} if the experiment harms the student.");
+        Debug.Log($"The teacher informed the experimenter {timesStudentWantsToExitQuestionWasAsked} times that the student wants to exit the experiment.");
+        Debug.Log($"The teacher asked {timesStudentDidntAnswerQuestionWasAsked} times what to do if the student does not answer.");
     }
 }

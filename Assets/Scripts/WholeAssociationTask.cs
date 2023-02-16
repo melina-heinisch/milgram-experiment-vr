@@ -21,6 +21,14 @@ public class WholeAssociationTask : MonoBehaviour
 
     void Start()
     {
+        InitializeScripts();
+
+        //start the instructions
+        instructions[0].OnStartOfInstruction(teachterMonitorReferences, textsForAssociationCanvas[associationIndex]);
+    }
+
+    private void InitializeScripts()
+    {
         gameObject.AddComponent<InitializeAssoziationspaar>();
         gameObject.AddComponent<ReadAnswers>();
         gameObject.AddComponent<WaitForAnswer>();
@@ -39,9 +47,6 @@ public class WholeAssociationTask : MonoBehaviour
             gameObject.GetComponent<ExecutePunishment>(), //skipped when answer is correct
             gameObject.GetComponent<DelayForNextRound>(), //wait for next words 
         };
-
-        //start the instructions
-        instructions[0].OnStartOfInstruction(teachterMonitorReferences, textsForAssociationCanvas[associationIndex]);
     }
 
     void Update()
@@ -64,11 +69,22 @@ public class WholeAssociationTask : MonoBehaviour
                                           "Dass Sie auch trotz Leiden des Schülers weiter gemacht haben, ist eine normale Reaktion und kann bei vielen Teilnehmenden beobachtet werden. " +
                                           "Bei weiteren Fragen wenden Sie sich im Anschluss an das Experiment an die Versuchsleiter.";
                     debriefingCanvas.SetActive(true);
+                    Debug.Log($"Experiment finished. {associationIndex} of {textsForAssociationCanvas.Count} punishments were executed.");
                 }
             }
 
             // show the next instruction
             instructions[instructionIndex].OnStartOfInstruction(teachterMonitorReferences, textsForAssociationCanvas[associationIndex]);
         }
+    }
+
+    void OnApplicationQuit()
+    {
+        WriteLogAtEndOfExperiment();
+    }
+
+    private void WriteLogAtEndOfExperiment()
+    {
+        Debug.Log($"{associationIndex} of {textsForAssociationCanvas.Count} punishments were executed.");
     }
 }

@@ -21,22 +21,22 @@ public class Debriefing : MonoBehaviour
 
     public void OnEnable()
     {
-        Debug.Log("In method");
+        //Debug.Log("In method");
         vlInteraction.SetActive(false);
         StartCoroutine(showDebriefing());
-        Debug.Log("Called method");
+        //Debug.Log("Called method");
     }
 
     IEnumerator showDebriefing()
     {
-        Debug.Log("In show debriefing");
+        //Debug.Log("In show debriefing");
         yield return new WaitForSeconds(20);
-        Debug.Log("Wait over");
+        //Debug.Log("Wait over");
         debriefingText.text = "Debriefing 2/3 \n \n Das Experiment war eine Replikation des Milgram-Experiments, welches die Gehorsamkeit gegenüber Authoritätspersonen untersucht hat. " +
                               "Dort wurden statt lauten Tönen Stromschläge verabreicht. " +
                               "Das Experiment ist sehr umstritten und ethisch bedenklich, da man im Glauben ist eine Person ernsthaft zu verletzten. " +
                               "Ziel dieser Studie war es zu testen, ob ähnliche Effekte auch in VR auftreten.";
-        Debug.Log("CHanged Text");
+        //Debug.Log("CHanged Text");
         yield return new WaitForSeconds(20);
         debriefingText.text = "Debriefing 3/3 \n \n " +
                               "Während dem Experiment bestand zu jedem Zeitpunkt die Möglichkeit abzubrechen, " +
