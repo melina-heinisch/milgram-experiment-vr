@@ -47,6 +47,7 @@ public class ExperimenterDialog : MonoBehaviour
         else
         {
             // Debug.Log(exitExperimentAnswers[incentivesDone]);
+            audioSource.Stop();
             audioSource.PlayOneShot(exitExperimentAnswers[incentivesDone], volume);
 
             // increase incentives
@@ -69,6 +70,7 @@ public class ExperimenterDialog : MonoBehaviour
 
     public void TellDangerAnswer()
     {
+        audioSource.Stop();
         audioSource.PlayOneShot(dangerAnswerAudio, volume);
         incentivesDone = 1;
         timesDangerQuestionWasAsked++;
@@ -76,6 +78,7 @@ public class ExperimenterDialog : MonoBehaviour
 
     public void TellStudentWantsToExitAnswer()
     {
+        audioSource.Stop();
         audioSource.PlayOneShot(weigerungSchueler, volume);
         incentivesDone = 1;
         timesStudentWantsToExitQuestionWasAsked++;
@@ -83,6 +86,7 @@ public class ExperimenterDialog : MonoBehaviour
 
     public void TellStudentDidntAnswerAnswer()
     {
+        audioSource.Stop();
         audioSource.PlayOneShot(noAnswerAudio, volume);
         timesStudentDidntAnswerQuestionWasAsked++;
         //incentives will not increase. See https://gitlab2.informatik.uni-wuerzburg.de/hci/teaching/courses/special-topics-xr/student-materials/2022-winter/light-and-dark-sides-gruppe-1/-/wikis/Methodik%20des%20originalen%20Milgram%20Experiments#reaktionen-bei-nachfragen-durch-versuchsperson

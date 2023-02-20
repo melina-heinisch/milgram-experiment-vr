@@ -13193,9 +13193,9 @@ MonoBehaviour:
     option3: {fileID: 1331174537}
     option4: {fileID: 1675994867}
   textsForAssociationCanvas:
-  - assoziationspaar1: "Tanne \u2014 L\xF6ffel"
+  - assoziationspaar1: "Tanne - L\xF6ffel"
     assoziationspaar2: "\xD6l - Stroh"
-    assoziationspaar3: "M\xFCcke \u2014 Brief"
+    assoziationspaar3: "M\xFCcke - Brief"
     assoziationspaar4: Glas - Himmel
     hinweiswort: Glas
     option1: Daumen
@@ -13206,9 +13206,9 @@ MonoBehaviour:
     correctOption: 4
     scream: {fileID: 0}
   - assoziationspaar1: Jahr - Kosten
-    assoziationspaar2: "Spinne \u2014 Stange"
-    assoziationspaar3: "Flamme \u2014 Falte"
-    assoziationspaar4: "Bus \u2014 Sessel"
+    assoziationspaar2: Spinne - Stange
+    assoziationspaar3: Flamme - Falte
+    assoziationspaar4: Bus - Sessel
     hinweiswort: Jahr
     option1: Reflex
     option2: "K\xF6nig"
@@ -13217,9 +13217,9 @@ MonoBehaviour:
     chosenOption: 1
     correctOption: 3
     scream: {fileID: 0}
-  - assoziationspaar1: "Onkel \u2014 Arzt"
+  - assoziationspaar1: Onkel - Arzt
     assoziationspaar2: Schlaf - Essen
-    assoziationspaar3: "Angst \u2014 Vater"
+    assoziationspaar3: Angst - Vater
     assoziationspaar4: Mann - Salz
     hinweiswort: Onkel
     option1: Gras
@@ -13230,9 +13230,9 @@ MonoBehaviour:
     correctOption: 2
     scream: {fileID: 8300000, guid: 4014c31fc8b160746a253d5a3579e626, type: 3}
   - assoziationspaar1: Lied - Kind
-    assoziationspaar2: "Motor \u2014 Farbe"
-    assoziationspaar3: "Freund \u2014 Kuh"
-    assoziationspaar4: Sklave - Fichte
+    assoziationspaar2: Motor - Farbe
+    assoziationspaar3: Freund - Kuh
+    assoziationspaar4: Larve - Fichte
     hinweiswort: Freund
     option1: Kuh
     option2: Reiter
@@ -13241,9 +13241,9 @@ MonoBehaviour:
     chosenOption: 2
     correctOption: 1
     scream: {fileID: 8300000, guid: df88faff74cbba54c913fc20934ea3cf, type: 3}
-  - assoziationspaar1: "Tinte \u2014 Furcht"
-    assoziationspaar2: "Gew\xFCrz \u2014 Zeit"
-    assoziationspaar3: "Truhe \u2014 Sommer"
+  - assoziationspaar1: Tinte - Furcht
+    assoziationspaar2: "Gew\xFCrz - Zeit"
+    assoziationspaar3: Truhe - Sommer
     assoziationspaar4: Nutzen - Tier
     hinweiswort: "Gew\xFCrz"
     option1: Vogel
@@ -13253,10 +13253,10 @@ MonoBehaviour:
     chosenOption: 2
     correctOption: 2
     scream: {fileID: 0}
-  - assoziationspaar1: Stirn - Neger
-    assoziationspaar2: "Klinik \u2014 Westen"
+  - assoziationspaar1: Stirn - Besen
+    assoziationspaar2: Klinik - Westen
     assoziationspaar3: Stern - Messer
-    assoziationspaar4: "Tal \u2014 Feuer"
+    assoziationspaar4: Tal - Feuer
     hinweiswort: Klinik
     option1: Leder
     option2: Lampe
@@ -13266,10 +13266,10 @@ MonoBehaviour:
     correctOption: 3
     scream: {fileID: 8300000, guid: 03d4544984d0b474cb620aa55bac4f2a, type: 3}
   - assoziationspaar1: Makel - Darm
-    assoziationspaar2: "Bl\xFCte \u2014 Auto"
+    assoziationspaar2: "Bl\xFCte - Auto"
     assoziationspaar3: Zoo - Fahrer
-    assoziationspaar4: "Flu\xDF \u2014 Stich"
-    hinweiswort: "Flu\xDF"
+    assoziationspaar4: Fluss - Stich
+    hinweiswort: Fluss
     option1: Reis
     option2: Stich
     option3: "M\xFChle"
@@ -13277,10 +13277,10 @@ MonoBehaviour:
     chosenOption: 2
     correctOption: 2
     scream: {fileID: 0}
-  - assoziationspaar1: "Kugel \u2014 Stufe"
-    assoziationspaar2: "Weste \u2014 Lid"
+  - assoziationspaar1: Kugel - Stufe
+    assoziationspaar2: Weste - Lid
     assoziationspaar3: "Brust - L\xE4rm"
-    assoziationspaar4: "Mutter \u2014 Fels"
+    assoziationspaar4: Mutter - Fels
     hinweiswort: Weste
     option1: Lid
     option2: "M\xF6hre"
@@ -13290,9 +13290,9 @@ MonoBehaviour:
     correctOption: 1
     scream: {fileID: 0}
   - assoziationspaar1: Schule - Wein
-    assoziationspaar2: "Ohr \u2014 Alter"
+    assoziationspaar2: Ohr - Alter
     assoziationspaar3: Ruhe - Netz
-    assoziationspaar4: "Blume \u2014 Moor"
+    assoziationspaar4: Blume - Moor
     hinweiswort: Ohr
     option1: Tisch
     option2: Knecht
@@ -13301,9 +13301,9 @@ MonoBehaviour:
     chosenOption: 3
     correctOption: 4
     scream: {fileID: 8300000, guid: 4ae4b667599af424ba1b94a353f3f831, type: 3}
-  - assoziationspaar1: "Zucker \u2014 Feind"
-    assoziationspaar2: "Stein \u2014 Traum"
-    assoziationspaar3: "Sumpf \u2014 Blatt"
+  - assoziationspaar1: Zucker - Feind
+    assoziationspaar2: Stein - Traum
+    assoziationspaar3: Sumpf - Blatt
     assoziationspaar4: Kinn - Tiefe
     hinweiswort: Zucker
     option1: Regal
@@ -13313,10 +13313,10 @@ MonoBehaviour:
     chosenOption: 3
     correctOption: 3
     scream: {fileID: 0}
-  - assoziationspaar1: "Osten \u2014 W\xE4rme"
-    assoziationspaar2: "Jugend \u2014 Zeiger"
-    assoziationspaar3: "Bibel \u2014 Bart"
-    assoziationspaar4: "H\xF6he \u2014 Fehler"
+  - assoziationspaar1: "Osten - W\xE4rme"
+    assoziationspaar2: Jugend - Zeiger
+    assoziationspaar3: Bibel - Bart
+    assoziationspaar4: "H\xF6he - Fehler"
     hinweiswort: Bibel
     option1: Apfel
     option2: Topf
@@ -13325,10 +13325,10 @@ MonoBehaviour:
     chosenOption: 1
     correctOption: 4
     scream: {fileID: 8300000, guid: 5266bce4f312db94684c26c409f8492d, type: 3}
-  - assoziationspaar1: "Laub \u2014 Haar"
+  - assoziationspaar1: Laub - Haar
     assoziationspaar2: Bohne - Strom
     assoziationspaar3: Magen - Jacke
-    assoziationspaar4: "Ku\xDF - Gow"
+    assoziationspaar4: Kuss - Stern
     hinweiswort: Bohne
     option1: Ritter
     option2: Stier
@@ -13337,9 +13337,9 @@ MonoBehaviour:
     chosenOption: 2
     correctOption: 3
     scream: {fileID: 8300000, guid: 602d32bfa26d60b4e9d532fc55046e4f, type: 3}
-  - assoziationspaar1: "Milch \u2014 Geh\xF6r"
-    assoziationspaar2: "K\xE4fer \u2014 F\xFCller"
-    assoziationspaar3: "Honig \u2014 Berg"
+  - assoziationspaar1: "Milch - Geh\xF6r"
+    assoziationspaar2: "K\xE4fer - F\xFCller"
+    assoziationspaar3: Honig - Berg
     assoziationspaar4: Suppe - Liebe
     hinweiswort: Suppe
     option1: Liebe
@@ -13349,10 +13349,10 @@ MonoBehaviour:
     chosenOption: 1
     correctOption: 3
     scream: {fileID: 0}
-  - assoziationspaar1: "Heu \u2014 S\xE4nger"
-    assoziationspaar2: "Post \u2014 Schatz"
-    assoziationspaar3: "Ofen \u2014 Tante"
-    assoziationspaar4: "Auge \u2014 Biene"
+  - assoziationspaar1: "Heu - S\xE4nger"
+    assoziationspaar2: Post - Schatz
+    assoziationspaar3: Ofen - Tante
+    assoziationspaar4: Auge - Biene
     hinweiswort: Auge
     option1: Stadt
     option2: Salat
@@ -13362,8 +13362,8 @@ MonoBehaviour:
     correctOption: 4
     scream: {fileID: 0}
   - assoziationspaar1: Gabel - Ball
-    assoziationspaar2: "Uhr \u2014 Frau"
-    assoziationspaar3: "Treppe \u2014 Fett"
+    assoziationspaar2: Uhr - Frau
+    assoziationspaar3: Treppe - Fett
     assoziationspaar4: Sofa - Vase
     hinweiswort: Sofa
     option1: Frosch
@@ -13373,7 +13373,7 @@ MonoBehaviour:
     chosenOption: 0
     correctOption: 2
     scream: {fileID: 0}
-  - assoziationspaar1: "Kissen \u2014 Schere "
+  - assoziationspaar1: 'Kissen - Schere '
     assoziationspaar2: 'Reis - Regal '
     assoziationspaar3: 'Meer  - Stadt '
     assoziationspaar4: 'Bild  - Tag '
@@ -13518,7 +13518,7 @@ MonoBehaviour:
   schieberegler: {fileID: 1432648012}
   roleCanvas: {fileID: 1921531119}
   studentImage: {fileID: 1163475497}
-  volume: 20
+  volume: 25
   audiosource: {fileID: 1916221900}
   intro: {fileID: 8300000, guid: 78a236ee19e54784083e714214b2950c, type: 3}
   transition: {fileID: 8300000, guid: b1880a32a72887b4cb22d5e57f9797eb, type: 3}
@@ -16877,6 +16877,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 168c6b8cd14f3ae4fa5d32bdf50a785e, type: 2}
+    - target: {fileID: 6307259937056142367, guid: 745d64a60ec38f1438cf415ed07ad6df, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4635
+      objectReference: {fileID: 0}
     - target: {fileID: 6307259937056142367, guid: 745d64a60ec38f1438cf415ed07ad6df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.239

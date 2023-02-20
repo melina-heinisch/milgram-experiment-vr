@@ -62,9 +62,27 @@ public class Schieberegler : MonoBehaviour
 
                 GameObject light;
 
-                if (lights.TryGetValue(value, out light) && !light.activeSelf)
+                // Set all Lights up until current one active
+                for (int i = 1; i <= value; i++)
                 {
-                    light.SetActive(true);
+                    Debug.Log(i + " Light on");
+                    if (lights.TryGetValue(i, out light) && !light.activeSelf)
+                    {
+                        Debug.Log("Turned on");
+                        light.SetActive(true);
+
+                    }
+                }
+                // Set all lights after current one disabled
+                for (int i = 10; i > value; i--)
+                {
+                    Debug.Log(i + " Light off");
+                    if (lights.TryGetValue(i, out light) && light.activeSelf)
+                    {
+                        Debug.Log("Turned off");
+                        light.SetActive(false);
+
+                    }
                 }
             }
             catch (System.FormatException)
